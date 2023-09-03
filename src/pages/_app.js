@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }) {
   const WOW = !isServer ? require('wow.js') : null
   useEffect(()=>{
     new WOW().init()
-  },[])
+  },[WOW])
   const {pathname} = useRouter();
   return (
     <AnimatePresence mode="wait">

@@ -1,3 +1,6 @@
+import Link from "next/link";
+import Image from "next/image";
+
 const Blog = () => {
     return <div>
 <section id="ori-breadcrumbs" className="ori-breadcrumbs-section position-relative" data-background="/img/bg/bread-bg.png">

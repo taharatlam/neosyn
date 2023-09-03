@@ -2,6 +2,7 @@ import Breadcrumbs from "../Layout/Breadcrum";
 import Image from "next/image";
 import ProgressCounter from "../ProgressCounter";
 
+import Link from "next/link";
 
 
 const Service = ({ data }) => {
