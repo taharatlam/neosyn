@@ -2,6 +2,7 @@ import { services } from "@/constant";
 
 import Breadcrumbs from "@/component/Layout/Breadcrum";
 import Link from "next/link";
+import Image from "next/image";
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -136,7 +137,7 @@ export default function Services() {
 							</div>
 							<div className="ori-service-img-title position-relative">
 								<div className="ori-service-img">
-									<img src="/img/service/ser1.png" alt=""/>
+									<Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser1.png" alt=""/>
 								</div>
 								<div className="ori-service-title text-center position-absolute">
 									<h3>About us  <i className="fal fa-arrow-right"></i></h3>
@@ -151,7 +152,7 @@ export default function Services() {
 							</div>
 							<div className="ori-service-img-title position-relative">
 								<div className="ori-service-img">
-									<img src="/img/service/ser2.png" alt=""/>
+									<Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser2.png" alt=""/>
 								</div>
 								<div className="ori-service-title text-center position-absolute">
 									<h3>Our Mission  <i className="fal fa-arrow-right"></i></h3>
@@ -166,7 +167,7 @@ export default function Services() {
 							</div>
 							<div className="ori-service-img-title position-relative">
 								<div className="ori-service-img">
-									<img src="/img/service/ser3.png" alt=""/>
+									<Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser3.png" alt=""/>
 								</div>
 								<div className="ori-service-title text-center position-absolute">
 									<h3>Our approach  <i className="fal fa-arrow-right"></i></h3>
@@ -180,7 +181,7 @@ export default function Services() {
 				<div className="row">
 					<div className="col-lg-6">
 						<div className="ori-service-why-choose-img">
-							<img src="/img/about/ser.png" alt=""/>
+							<Image width={100000} height={10000} className="w-full h-auto" src="/img/about/ser.png" alt=""/>
 						</div>
 					</div>
 					<div className="col-lg-6">

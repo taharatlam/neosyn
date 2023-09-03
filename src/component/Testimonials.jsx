@@ -1,12 +1,14 @@
 import React from 'react'
 import Slider from "react-slick";
+import Image from 'next/image';
+import Link from 'next/link';
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
   
     <button type="button" className="testi-right_arrow" onClick={onClick}>
-        <img src="/img/vector/next.png" alt="" />
+        <Image width={100000} height={10000} className="w-full h-auto" src="/img/vector/next.png" alt="" />
     </button>
     );
 }
@@ -15,7 +17,7 @@ function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
         <button type="button" className="testi-left_arrow" onClick={onClick}>
-            <img src="/img/vector/prev.png" alt="" />
+            <Image width={100000} height={10000} className="w-full h-auto" src="/img/vector/prev.png" alt="" />
         </button>
         
     );

@@ -5,14 +5,15 @@ import Testimonials from "@/component/Testimonials";
 import { useState, useEffect } from "react";
 import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
+import Image from "next/image";
+import Link from "next/link";
+
 
 const Home = () => {
-  const isServer = typeof window === 'undefined'
-  const WOW = !isServer ? require('wow.js') : null
+  
   const [domLoaded, setDomLoaded] = useState(false);
-  useEffect(()=>{
+  useEffect(() =>{
     setDomLoaded(true)
-    new WOW().init()
   },[])
 
   const settings = {
@@ -80,7 +81,7 @@ const Home = () => {
                   </a>
                 </div>
                 <div className="ori-slider-img position-absolute">
-                  <img src="/img/slider/slider-1.png" alt="" />
+                  <Image width={100000} height={10000} className="w-full h-auto" src="/img/slider/slider-1.png" alt="" />
                 </div>
               </div>
             </div>
@@ -99,7 +100,7 @@ const Home = () => {
                   </a>
                 </div>
                 <div className="ori-slider-img position-absolute">
-                  <img src="/img/slider/slider-1.png" alt="" />
+                  <Image width={100000} height={10000} className="w-full h-auto" src="/img/slider/slider-1.png" alt="" />
                 </div>
               </div>
             </div>
@@ -118,7 +119,7 @@ const Home = () => {
                   </a>
                 </div>
                 <div className="ori-slider-img position-absolute">
-                  <img src="/img/slider/slider-1.png" alt="" />
+                  <Image width={100000} height={10000} className="w-full h-auto" src="/img/slider/slider-1.png" alt="" />
                 </div>
               </div>
             </div>
@@ -181,7 +182,7 @@ const Home = () => {
                   </div>
                   <div className="ori-service-img-title position-relative">
                     <div className="ori-service-img">
-                      <img src="/img/service/ser1.png" alt="" />
+                      <Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser1.png" alt="" />
                     </div>
                     <div className="ori-service-title text-center position-absolute">
                       <h3>
@@ -204,7 +205,7 @@ const Home = () => {
                   </div>
                   <div className="ori-service-img-title position-relative">
                     <div className="ori-service-img">
-                      <img src="/img/service/ser2.png" alt="" />
+                      <Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser2.png" alt="" />
                     </div>
                     <div className="ori-service-title text-center position-absolute">
                       <h3>
@@ -227,7 +228,7 @@ const Home = () => {
                   </div>
                   <div className="ori-service-img-title position-relative">
                     <div className="ori-service-img">
-                      <img src="/img/service/ser3.png" alt="" />
+                      <Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser3.png" alt="" />
                     </div>
                     <div className="ori-service-title text-center position-absolute">
                       <h3>
@@ -382,7 +383,7 @@ const Home = () => {
                   >
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro1.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro1.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -402,7 +403,7 @@ const Home = () => {
                     </div>
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro2.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro2.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -422,7 +423,7 @@ const Home = () => {
                     </div>
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro3.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro3.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -449,7 +450,7 @@ const Home = () => {
                   >
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro1.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro1.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -469,7 +470,7 @@ const Home = () => {
                     </div>
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro2.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro2.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -489,7 +490,7 @@ const Home = () => {
                     </div>
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro3.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro3.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -516,7 +517,7 @@ const Home = () => {
                   >
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro1.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro1.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -536,7 +537,7 @@ const Home = () => {
                     </div>
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro2.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro2.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -556,7 +557,7 @@ const Home = () => {
                     </div>
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro3.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro3.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -583,7 +584,7 @@ const Home = () => {
                   >
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro1.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro1.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -603,7 +604,7 @@ const Home = () => {
                     </div>
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro2.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro2.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -623,7 +624,7 @@ const Home = () => {
                     </div>
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro3.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro3.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -650,7 +651,7 @@ const Home = () => {
                   >
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro1.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro1.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -670,7 +671,7 @@ const Home = () => {
                     </div>
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro2.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro2.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -690,7 +691,7 @@ const Home = () => {
                     </div>
                     <div className="ori-project-item-1 position-relative">
                       <div className="ori-project-img">
-                        <img src="/img/project/pro3.png" alt="" />
+                        <Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro3.png" alt="" />
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
@@ -785,7 +786,7 @@ const Home = () => {
               >
                 <div className="ori-team-inner-item position-relative">
                   <div className="ori-team-img">
-                    <img src="/img/team/tm1.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/team/tm1.png" alt="" />
                   </div>
                   <div className="ori-team-text text-center position-absolute">
                     <h3>
@@ -816,7 +817,7 @@ const Home = () => {
               >
                 <div className="ori-team-inner-item position-relative">
                   <div className="ori-team-img">
-                    <img src="/img/team/tm2.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/team/tm2.png" alt="" />
                   </div>
                   <div className="ori-team-text text-center position-absolute">
                     <h3>
@@ -847,7 +848,7 @@ const Home = () => {
               >
                 <div className="ori-team-inner-item position-relative">
                   <div className="ori-team-img">
-                    <img src="/img/team/tm3.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/team/tm3.png" alt="" />
                   </div>
                   <div className="ori-team-text text-center position-absolute">
                     <h3>
@@ -896,7 +897,7 @@ const Home = () => {
         data-wow-delay="400ms"
         data-wow-duration="1500ms"
       >
-        <img src="/img/vector/tst-vector1.png" alt="" />
+        <Image width={100000} height={10000} className="w-full h-auto" src="/img/vector/tst-vector1.png" alt="" />
       </div>
       <div className="container">
         <div className="ori-testimonial-content-1 position-relative">
@@ -968,7 +969,7 @@ const Home = () => {
             >
               <div className="ori-blog-inner-item">
                 <div className="blog-inner-img">
-                  <img src="/img/blog/blg1.png" alt="" />
+                  <Image width={100000} height={10000} className="w-full h-auto" src="/img/blog/blg1.png" alt="" />
                 </div>
                 <div className="blog-inner-text">
                   <h3>
@@ -992,7 +993,7 @@ const Home = () => {
             >
               <div className="ori-blog-inner-item">
                 <div className="blog-inner-img">
-                  <img src="/img/blog/blg2.png" alt="" />
+                  <Image width={100000} height={10000} className="w-full h-auto" src="/img/blog/blg2.png" alt="" />
                 </div>
                 <div className="blog-inner-text">
                   <h3>
@@ -1016,7 +1017,7 @@ const Home = () => {
             >
               <div className="ori-blog-inner-item">
                 <div className="blog-inner-img">
-                  <img src="/img/blog/blg3.png" alt="" />
+                  <Image width={100000} height={10000} className="w-full h-auto" src="/img/blog/blg3.png" alt="" />
                 </div>
                 <div className="blog-inner-text">
                   <h3>

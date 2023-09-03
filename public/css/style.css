@@ -1176,6 +1176,9 @@ select:visited {
 .close-side-widget:hover {
   color: #fff !important;
   font-size: 24px;
+  background: transparent;
+  outline: none;
+  border: none;
 }
 
 .xs-sidebar-group .xs-overlay {
@@ -6464,6 +6467,7 @@ select:visited {
 /*----------------------------------------------------*/
 .ori-breadcrumbs-section {
   overflow: hidden;
+  background-image: url("../img/bg/bread-bg.png");
 }
 
 .ori-breadcrumb-content {
@@ -13577,5 +13581,18 @@ Font load
   width: 100%;
   height: 100vh;
   background: #0f0f0f;
+}
+.w-full{
+  width: auto;
+}
+.h-auto{
+  height: auto;
+}
+.circ-p-wrapper{
+  position: relative;
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.2em;
 }
 /*---------------------------------------------------- */

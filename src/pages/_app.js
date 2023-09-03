@@ -1,8 +1,32 @@
 import Layout from "../component/Layout/Layout";
+import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
 
+import '../../public/css/bootstrap.min.css';
+// import '../../public/css/fontawesome.css';
+// import '../../public/css/jquery-ui.css';
+import '../../public/css/slick-theme.css';
+// import '../../public/css/video.min.css';
+import '../../public/css/swiper.css';
+import '../../public/css/slick.css';
+// import '../../public/css/rs6.css';
+import '../../public/css/animate.css';
+import '../../public/css/global.css';
+import '../../public/css/style.css';
+
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+
+config.autoAddCss = false;
+
+
 export default function App({ Component, pageProps }) {
+  const isServer = typeof window === 'undefined'
+  const WOW = !isServer ? require('wow.js') : null
+  useEffect(()=>{
+    new WOW().init()
+  },[])
   const {pathname} = useRouter();
   return (
     <AnimatePresence mode="wait">

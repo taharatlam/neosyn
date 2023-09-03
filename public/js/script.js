@@ -100,17 +100,17 @@ Last change:    00/00/00
 					}
 				});
 				jQuery(document).ready(function (o) {
-					0 < o(".navSidebar-button").length &&
-					o(".navSidebar-button").on("click", function (e) {
-						e.preventDefault(), e.stopPropagation(), o(".info-group").addClass("isActive");
-					}),
-					0 < o(".close-side-widget").length &&
-					o(".close-side-widget").on("click", function (e) {
-						e.preventDefault(), o(".info-group").removeClass("isActive");
-					}),
-					o(".xs-sidebar-widget").on("click", function (e) {
-						e.stopPropagation();
-					})
+					// 0 < o(".navSidebar-button").length &&
+					// o(".navSidebar-button").on("click", function (e) {
+					// 	e.preventDefault(), e.stopPropagation(), o(".info-group").addClass("isActive");
+					// }),
+					// 0 < o(".close-side-widget").length &&
+					// o(".close-side-widget").on("click", function (e) {
+					// 	e.preventDefault(), o(".info-group").removeClass("isActive");
+					// }),
+					// o(".xs-sidebar-widget").on("click", function (e) {
+					// 	e.stopPropagation();
+					// })
 				});
 			},
 			searchPopUp: function (){

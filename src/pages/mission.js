@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const Mission = () => {
 	const[reloadKey, setReloadKey] = useState(Math.random())
@@ -140,7 +142,7 @@ setReloadKey(Math.random())
 					<div className="col-lg-6">
 						<div className="ori-about-play-area position-relative">
 							<div className="ori-about-play-img">
-								<img src="/img/about/v-play.png" alt=""/>
+								<Image width={100000} height={10000} className="w-full h-auto" src="/img/about/v-play.png" alt=""/>
 							</div>
 							<div className="about-play-btn position-absolute">
 								<a className="text-uppercase video_box d-flex align-items-center justify-content-center" href="https://www.youtube.com/watch?v=bIoPkZRVll">Play</a>
@@ -172,56 +174,56 @@ setReloadKey(Math.random())
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp1.png" alt=""/>
+								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp1.png" alt=""/>
 							</a>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp2.png" alt=""/>
+								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp2.png" alt=""/>
 							</a>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp3.png" alt=""/>
+								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp3.png" alt=""/>
 							</a>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp4.png" alt=""/>
+								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp4.png" alt=""/>
 							</a>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp5.png" alt=""/>
+								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp5.png" alt=""/>
 							</a>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp1.png" alt=""/>
+								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp1.png" alt=""/>
 							</a>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp2.png" alt=""/>
+								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp2.png" alt=""/>
 							</a>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp3.png" alt=""/>
+								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp3.png" alt=""/>
 							</a>
 						</div>
 					</div>

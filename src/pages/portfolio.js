@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 const Portfolio = () => {
   return <div>
     	<section id="ori-breadcrumbs" className="ori-breadcrumbs-section position-relative" data-background="/img/bg/bread-bg.png">
@@ -37,7 +39,7 @@ const Portfolio = () => {
 				<div className="col-lg-4 col-sm-6 filtr-item" data-category="1, 3, 4" data-sort="Busy streets">
 					<div className="ori-portfolio-item position-relative">
 						<div className="portfolio-img">
-							<img src="/img/service/ser1.png" alt=""/>
+							<Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser1.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
 							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
@@ -48,7 +50,7 @@ const Portfolio = () => {
 				<div className="col-lg-4 col-sm-6 filtr-item" data-category="2, 5, 4" data-sort="Busy streets">
 					<div className="ori-portfolio-item position-relative">
 						<div className="portfolio-img">
-							<img src="/img/service/ser2.png" alt=""/>
+							<Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser2.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
 							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
@@ -59,7 +61,7 @@ const Portfolio = () => {
 				<div className="col-lg-4 col-sm-6 filtr-item" data-category="3, 4" data-sort="Busy streets">
 					<div className="ori-portfolio-item position-relative">
 						<div className="portfolio-img">
-							<img src="/img/service/ser3.png" alt=""/>
+							<Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser3.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
 							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
@@ -70,7 +72,7 @@ const Portfolio = () => {
 				<div className="col-lg-4 col-sm-6 filtr-item" data-category="2,  4" data-sort="Busy streets">
 					<div className="ori-portfolio-item position-relative">
 						<div className="portfolio-img">
-							<img src="/img/project/pro4.png" alt=""/>
+							<Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro4.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
 							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
@@ -81,7 +83,7 @@ const Portfolio = () => {
 				<div className="col-lg-4 col-sm-6 filtr-item" data-category="1, 3" data-sort="Busy streets">
 					<div className="ori-portfolio-item position-relative">
 						<div className="portfolio-img">
-							<img src="/img/project/pro5.png" alt=""/>
+							<Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro5.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
 							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
@@ -92,7 +94,7 @@ const Portfolio = () => {
 				<div className="col-lg-4 col-sm-6 filtr-item" data-category="1, 2" data-sort="Busy streets">
 					<div className="ori-portfolio-item position-relative">
 						<div className="portfolio-img">
-							<img src="/img/project/pro6.png" alt=""/>
+							<Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro6.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
 							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
@@ -103,7 +105,7 @@ const Portfolio = () => {
 				<div className="col-lg-4 col-sm-6 filtr-item" data-category="2, 3, 5" data-sort="Busy streets">
 					<div className="ori-portfolio-item position-relative">
 						<div className="portfolio-img">
-							<img src="/img/project/pro7.png" alt=""/>
+							<Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro7.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
 							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
@@ -114,7 +116,7 @@ const Portfolio = () => {
 				<div className="col-lg-4 col-sm-6 filtr-item" data-category="5, 3, 4" data-sort="Busy streets">
 					<div className="ori-portfolio-item position-relative">
 						<div className="portfolio-img">
-							<img src="/img/project/pro8.png" alt=""/>
+							<Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro8.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
 							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
@@ -125,7 +127,7 @@ const Portfolio = () => {
 				<div className="col-lg-4 col-sm-6 filtr-item" data-category="5, 2, 4" data-sort="Busy streets">
 					<div className="ori-portfolio-item position-relative">
 						<div className="portfolio-img">
-							<img src="/img/project/pro9.png" alt=""/>
+							<Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro9.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
 							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>

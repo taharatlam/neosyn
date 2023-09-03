@@ -1,6 +1,8 @@
 import React from 'react'
 import Slider from "react-slick";
 
+import Image from 'next/image';
+import Link from 'next/link';
 const LogoSlider = () => {
     const sponcerSettings = {
         arrow: false,
@@ -58,56 +60,56 @@ const LogoSlider = () => {
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
                   <a href="#">
-                    <img src="/img/sponsor/sp1.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp1.png" alt="" />
                   </a>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
                   <a href="#">
-                    <img src="/img/sponsor/sp2.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp2.png" alt="" />
                   </a>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
                   <a href="#">
-                    <img src="/img/sponsor/sp3.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp3.png" alt="" />
                   </a>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
                   <a href="#">
-                    <img src="/img/sponsor/sp4.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp4.png" alt="" />
                   </a>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
                   <a href="#">
-                    <img src="/img/sponsor/sp5.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp5.png" alt="" />
                   </a>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
                   <a href="#">
-                    <img src="/img/sponsor/sp1.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp1.png" alt="" />
                   </a>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
                   <a href="#">
-                    <img src="/img/sponsor/sp2.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp2.png" alt="" />
                   </a>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
                   <a href="#">
-                    <img src="/img/sponsor/sp3.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp3.png" alt="" />
                   </a>
                 </div>
               </div>

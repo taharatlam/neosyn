@@ -1,7 +1,12 @@
 import Breadcrumbs from "../Layout/Breadcrum";
+import Image from "next/image";
+import ProgressCounter from "../ProgressCounter";
+
+
 
 const Service = ({ data }) => {
   const { pageTitle, companyName } = data;
+  const percentage = 66;
   return (
     <>
       <Breadcrumbs pageTitle={pageTitle} companyName={companyName} />
@@ -16,7 +21,7 @@ const Service = ({ data }) => {
                 <div className="ori-service-details-content">
                   <div className="ori-about-play-area position-relative">
                     <div className="ori-about-play-img">
-                      <img src="/img/about/serd.png" alt="" />
+                      <Image width={100000} height={10000} className="w-full h-auto" src="/img/about/serd.png" alt="" />
                     </div>
                     <div className="about-play-btn position-absolute">
                       <a
@@ -121,7 +126,7 @@ const Service = ({ data }) => {
                       <div className="ori-service-details-result-item-wrap d-flex justify-content-between">
                         <div className="ori-about-circle-progress-item">
                           <div className="counter-boxed text-center headline position-relative">
-                            <div className="graph-outer">
+                            {/* <div className="graph-outer">
                               <input
                                 type="text"
                                 className="dial"
@@ -140,6 +145,9 @@ const Service = ({ data }) => {
                                 ></span>
                                 %
                               </div>
+                            </div> */}
+                            <div className="circ-p-wrapper">
+                              <ProgressCounter value={90} />
                             </div>
                             <h3 className="text-uppercase">product sales</h3>
                             <h3 className="text-uppercase">
@@ -150,7 +158,7 @@ const Service = ({ data }) => {
                         </div>
                         <div className="ori-about-circle-progress-item">
                           <div className="counter-boxed text-center headline position-relative">
-                            <div className="graph-outer">
+                            {/* <div className="graph-outer">
                               <input
                                 type="text"
                                 className="dial"
@@ -169,6 +177,9 @@ const Service = ({ data }) => {
                                 ></span>
                                 %
                               </div>
+                            </div> */}
+                            <div className="circ-p-wrapper">
+                              <ProgressCounter value={90} />
                             </div>
                             <h3 className="text-uppercase">product sales</h3>
                             <h3 className="text-uppercase">
@@ -179,7 +190,7 @@ const Service = ({ data }) => {
                         </div>
                         <div className="ori-about-circle-progress-item">
                           <div className="counter-boxed text-center headline position-relative">
-                            <div className="graph-outer">
+                            {/* <div className="graph-outer">
                               <input
                                 type="text"
                                 className="dial"
@@ -198,6 +209,9 @@ const Service = ({ data }) => {
                                 ></span>
                                 %
                               </div>
+                            </div> */}
+                            <div className="circ-p-wrapper">
+                              <ProgressCounter value={90} />
                             </div>
                             <h3 className="text-uppercase">product sales</h3>
                             <h3 className="text-uppercase">

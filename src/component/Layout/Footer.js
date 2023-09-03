@@ -1,5 +1,7 @@
 // import MainNavigation from './MainNavigation';
 // import classNamees from './Layout.module.css';
+import Image from "next/image";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -16,7 +18,7 @@ function Footer() {
               <div className="ori-footer-widget">
                 <div className="logo-widget">
                   <a href="#">
-                    <img src="/img/logo/logo1.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
                   </a>
                 </div>
               </div>

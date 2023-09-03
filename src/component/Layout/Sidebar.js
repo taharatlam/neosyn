@@ -1,8 +1,11 @@
+import Image from "next/image";
+import Link from "next/link";
+
 function Sidebar() {
   return (
     <div>
       {/* sidebar */}
-      <div className="xs-sidebar-group info-group">
+      {/* <div className="xs-sidebar-group info-group">
         <div className="xs-overlay xs-bg-black">
           <div className="row loader-area">
             <div className="col-3 preloader-wrap">
@@ -31,7 +34,7 @@ function Sidebar() {
                 <div className="content-inner">
                   <div className="logo">
                     <a href="index-1.html">
-                      <img src="/img/logo/logo1.png" alt="" />
+                      <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
                     </a>
                   </div>
                   <div className="content-box">
@@ -52,7 +55,7 @@ function Sidebar() {
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
-                          <img src="/img/gallery/gl1.png" alt="" />
+                          <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl1.png" alt="" />
                         </a>
                       </li>
                       <li>
@@ -60,7 +63,7 @@ function Sidebar() {
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
-                          <img src="/img/gallery/gl2.png" alt="" />
+                          <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl2.png" alt="" />
                         </a>
                       </li>
                       <li>
@@ -68,7 +71,7 @@ function Sidebar() {
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
-                          <img src="/img/gallery/gl3.png" alt="" />
+                          <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl3.png" alt="" />
                         </a>
                       </li>
                       <li>
@@ -76,7 +79,7 @@ function Sidebar() {
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
-                          <img src="/img/gallery/gl4.png" alt="" />
+                          <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl4.png" alt="" />
                         </a>
                       </li>
                       <li>
@@ -84,7 +87,7 @@ function Sidebar() {
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
-                          <img src="/img/gallery/gl5.png" alt="" />
+                          <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl5.png" alt="" />
                         </a>
                       </li>
                       <li>
@@ -92,7 +95,7 @@ function Sidebar() {
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
-                          <img src="/img/gallery/gl6.png" alt="" />
+                          <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl6.png" alt="" />
                         </a>
                       </li>
                     </ul>
@@ -131,7 +134,7 @@ function Sidebar() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

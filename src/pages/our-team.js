@@ -1,5 +1,13 @@
+import Image from "next/image";
+import Link from "next/link";
+import { useState, useEffect } from "react";
 const OurTeam = () => {
-  return (
+  const [domLoaded, setDomLoaded] = useState(false);
+	useEffect(() => {
+		setDomLoaded(true)
+	}, [])
+  return (  
+    domLoaded &&
     <div>
       <section
         id="ori-team-post-feed"
@@ -12,7 +20,7 @@ const OurTeam = () => {
                 <div className="col-lg-4">
                   <div className="ori-team-inner-item position-relative">
                     <div className="ori-team-img">
-                      <img src="/img/team/tm1.png" alt="" />
+                      <Image width={100000} height={10000} className="w-full h-auto" src="/img/team/tm1.png" alt="" />
                     </div>
                     <div className="ori-team-text text-center position-absolute">
                       <h3>
@@ -39,7 +47,7 @@ const OurTeam = () => {
                 <div className="col-lg-4">
                   <div className="ori-team-inner-item position-relative">
                     <div className="ori-team-img">
-                      <img src="/img/team/tm2.png" alt="" />
+                      <Image width={100000} height={10000} className="w-full h-auto" src="/img/team/tm2.png" alt="" />
                     </div>
                     <div className="ori-team-text text-center position-absolute">
                       <h3>
@@ -66,7 +74,7 @@ const OurTeam = () => {
                 <div className="col-lg-4">
                   <div className="ori-team-inner-item position-relative">
                     <div className="ori-team-img">
-                      <img src="/img/team/tm3.png" alt="" />
+                      <Image width={100000} height={10000} className="w-full h-auto" src="/img/team/tm3.png" alt="" />
                     </div>
                     <div className="ori-team-text text-center position-absolute">
                       <h3>
@@ -93,7 +101,7 @@ const OurTeam = () => {
                 <div className="col-lg-4">
                   <div className="ori-team-inner-item position-relative">
                     <div className="ori-team-img">
-                      <img src="/img/team/tm3.png" alt="" />
+                      <Image width={100000} height={10000} className="w-full h-auto" src="/img/team/tm3.png" alt="" />
                     </div>
                     <div className="ori-team-text text-center position-absolute">
                       <h3>
@@ -120,7 +128,7 @@ const OurTeam = () => {
                 <div className="col-lg-4">
                   <div className="ori-team-inner-item position-relative">
                     <div className="ori-team-img">
-                      <img src="/img/team/tm4.png" alt="" />
+                      <Image width={100000} height={10000} className="w-full h-auto" src="/img/team/tm4.png" alt="" />
                     </div>
                     <div className="ori-team-text text-center position-absolute">
                       <h3>
@@ -147,7 +155,7 @@ const OurTeam = () => {
                 <div className="col-lg-4">
                   <div className="ori-team-inner-item position-relative">
                     <div className="ori-team-img">
-                      <img src="/img/team/tm5.png" alt="" />
+                      <Image width={100000} height={10000} className="w-full h-auto" src="/img/team/tm5.png" alt="" />
                     </div>
                     <div className="ori-team-text text-center position-absolute">
                       <h3>
@@ -192,7 +200,7 @@ const OurTeam = () => {
         className="ori-testimonial-section-1 position-relative"
       >
         <div className="ori-vector-bg position-absolute">
-          <img src="/img/vector/tst-vector1.png" alt="" />
+          <Image width={100000} height={10000} className="w-full h-auto" src="/img/vector/tst-vector1.png" alt="" />
         </div>
         <div className="container">
           <div className="ori-testimonial-content-1 position-relative">
@@ -251,10 +259,10 @@ const OurTeam = () => {
             </div>
             <div className="carousel_nav">
               <button type="button" className="testi-left_arrow">
-                <img src="/img/vector/prev.png" alt="" />
+                <Image width={100000} height={10000} className="w-full h-auto" src="/img/vector/prev.png" alt="" />
               </button>
               <button type="button" className="testi-right_arrow">
-                <img src="/img/vector/next.png" alt="" />
+                <Image width={100000} height={10000} className="w-full h-auto" src="/img/vector/next.png" alt="" />
               </button>
             </div>
           </div>

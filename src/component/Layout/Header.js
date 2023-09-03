@@ -1,8 +1,24 @@
+'use client'
 import { services } from "@/constant";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = (props) => {
   const servicesType = [...services.serviceType];
+  const [isActive, setIsActive] = useState(false);
+  const [isSearchActive, setIsSearchActive] = useState(false);
+  useEffect(() => {
+    if (isSearchActive) {
+      document.body.classList.add('search-active');
+    } else {
+      document.body.classList.remove('search-active');
+    }
+
+    return () => {
+      document.body.classList.remove('search-active');
+    };
+  }, [isSearchActive]);
   return (
     <>
       <header id="ori-header" className="ori-header-section header-style-one">
@@ -10,7 +26,7 @@ const Header = (props) => {
           <div className="ori-header-content d-flex align-items-center justify-content-between">
             <div className="brand-logo">
               <a href="#">
-                <img src="/img/logo/logo1.png" alt="" />
+                <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
               </a>
             </div>
             <div className="ori-main-navigation-area">
@@ -66,12 +82,12 @@ const Header = (props) => {
             </div>
             <div className="ori-header-sidebar-search d-flex align-items-center">
               <div className="ori-search-btn">
-                <button className="search-box-outer">
+                <button className="search-box-outer" onClick={()=>setIsSearchActive(true)}>
                   <i className="fal fa-search"></i>
                 </button>
               </div>
               <div className="ori-sidenav-btn navSidebar-button">
-                <button>
+                <button onClick={()=>setIsActive(true)}>
                   <i className="fal fa-bars"></i>
                 </button>
               </div>
@@ -89,7 +105,7 @@ const Header = (props) => {
                 </div>
                 <div className="m-brand-logo">
                   <a href="%21.html#">
-                    <img src="/img/logo/logo1.png" alt="" />
+                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -99,15 +115,14 @@ const Header = (props) => {
       </header>
 
       {/* search */}
-      {/* <div className="search-popup">
-        <button className="close-search style-two">
+      <div className="search-popup">
+        <button className="close-search style-two" onClick={()=>setIsSearchActive(false)}>
           <span className="fal fa-times"></span>
         </button>
-        <button className="close-search">
+        <button className="close-search" onClick={()=>setIsSearchActive(false)}>
           <span className="fa fa-arrow-up"></span>
         </button>
-        <div
-        >
+        <form>
           <div className="form-group">
             <input
               type="search"
@@ -120,8 +135,139 @@ const Header = (props) => {
               <i className="fa fa-search"></i>
             </button>
           </div>
+        </form>
+      </div>
+
+      <div className={`xs-sidebar-group info-group ${isActive?'isActive':''}`}>
+        <div className="xs-overlay xs-bg-black">
+          <div className="row loader-area">
+            <div className="col-3 preloader-wrap">
+              <div className="loader-bg"></div>
+            </div>
+            <div className="col-3 preloader-wrap">
+              <div className="loader-bg"></div>
+            </div>
+            <div className="col-3 preloader-wrap">
+              <div className="loader-bg"></div>
+            </div>
+            <div className="col-3 preloader-wrap">
+              <div className="loader-bg"></div>
+            </div>
+          </div>
         </div>
-      </div> */}
+        <div className="xs-sidebar-widget">
+          <div className="sidebar-widget-container">
+            <div className="widget-heading">
+              <button className="close-side-widget" onClick={()=>setIsActive(false)}>
+                X
+              </button>
+            </div>
+            <div className="sidebar-textwidget">
+              <div className="sidebar-info-contents headline pera-content">
+                <div className="content-inner">
+                  <div className="logo">
+                    <a href="index-1.html">
+                      <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
+                    </a>
+                  </div>
+                  <div className="content-box">
+                    <h5>About Us</h5>
+                    <p className="text">
+                      The argument in favor of using filler text goes something
+                      like this: If you use real content in the Consulting
+                      Process, anytime you reach a review point you’ll end up
+                      reviewing and negotiating the content itself and not the
+                      design.
+                    </p>
+                  </div>
+                  <div className="gallery-box ul-li">
+                    <h5>Gallery</h5>
+                    <ul className="zoom-gallery">
+                      <li>
+                        <a
+                          href="/img/blog/blg-f5.png"
+                          data-source="/img/blog/blg-f5.png"
+                        >
+                          <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl1.png" alt="" />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/img/blog/blg-f5.png"
+                          data-source="/img/blog/blg-f5.png"
+                        >
+                          <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl2.png" alt="" />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/img/blog/blg-f5.png"
+                          data-source="/img/blog/blg-f5.png"
+                        >
+                          <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl3.png" alt="" />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/img/blog/blg-f5.png"
+                          data-source="/img/blog/blg-f5.png"
+                        >
+                          <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl4.png" alt="" />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/img/blog/blg-f5.png"
+                          data-source="/img/blog/blg-f5.png"
+                        >
+                          <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl5.png" alt="" />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/img/blog/blg-f5.png"
+                          data-source="/img/blog/blg-f5.png"
+                        >
+                          <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl6.png" alt="" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="content-box">
+                    <h5>Social Account</h5>
+                    <ul className="social-box">
+                      <li>
+                        <a
+                          href="https://www.facebook.com/"
+                          className="fab fa-facebook-f"
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.twitter.com/"
+                          className="fab fa-twitter"
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://dribbble.com/"
+                          className="fab fa-dribbble"
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.linkedin.com/"
+                          className="fab fa-linkedin"
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
