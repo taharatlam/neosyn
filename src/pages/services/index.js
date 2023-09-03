@@ -133,7 +133,7 @@ export default function Services() {
 					<div className="col-lg-4">
 						<div className="ori-service-inner-item position-relative">
 							<div className="ori-service-more position-absolute">
-								<a href="about.html"><i className="fas fa-arrow-right"></i></a>
+								<Link href="about.html"><i className="fas fa-arrow-right"></i></Link>
 							</div>
 							<div className="ori-service-img-title position-relative">
 								<div className="ori-service-img">
@@ -148,7 +148,7 @@ export default function Services() {
 					<div className="col-lg-4">
 						<div className="ori-service-inner-item position-relative">
 							<div className="ori-service-more position-absolute">
-								<a href="mission.html"><i className="fas fa-arrow-right"></i></a>
+								<Link href="mission.html"><i className="fas fa-arrow-right"></i></Link>
 							</div>
 							<div className="ori-service-img-title position-relative">
 								<div className="ori-service-img">
@@ -163,7 +163,7 @@ export default function Services() {
 					<div className="col-lg-4">
 						<div className="ori-service-inner-item position-relative">
 							<div className="ori-service-more position-absolute">
-								<a href="about.html"><i className="fas fa-arrow-right"></i></a>
+								<Link href="about.html"><i className="fas fa-arrow-right"></i></Link>
 							</div>
 							<div className="ori-service-img-title position-relative">
 								<div className="ori-service-img">

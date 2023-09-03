@@ -25,9 +25,9 @@ const Header = (props) => {
         <div className="ori-header-content-area">
           <div className="ori-header-content d-flex align-items-center justify-content-between">
             <div className="brand-logo">
-              <a href="#">
+              <Link href="#">
                 <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
-              </a>
+              </Link>
             </div>
             <div className="ori-main-navigation-area">
               <div className="ori-main-navigation clearfix ul-li">
@@ -37,7 +37,7 @@ const Header = (props) => {
                   </li>
 
                   <li className="dropdown">
-                    <a href="#">About</a>
+                    <Link href="#">About</Link>
                     <ul className="dropdown-menu clearfix">
                       <li>
                         <Link href="/our-team">Our Team</Link>
@@ -104,9 +104,9 @@ const Header = (props) => {
                   <i className="fal fa-times"></i>
                 </div>
                 <div className="m-brand-logo">
-                  <a href="%21.html#">
+                  <Link href="%21.html#">
                     <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -166,9 +166,9 @@ const Header = (props) => {
               <div className="sidebar-info-contents headline pera-content">
                 <div className="content-inner">
                   <div className="logo">
-                    <a href="index-1.html">
+                    <Link href="index-1.html">
                       <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="content-box">
                     <h5>About Us</h5>
@@ -184,52 +184,52 @@ const Header = (props) => {
                     <h5>Gallery</h5>
                     <ul className="zoom-gallery">
                       <li>
-                        <a
+                        <Link 
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
                           <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl1.png" alt="" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
                           <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl2.png" alt="" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
                           <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl3.png" alt="" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
                           <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl4.png" alt="" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
                           <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl5.png" alt="" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
                           <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl6.png" alt="" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -237,28 +237,28 @@ const Header = (props) => {
                     <h5>Social Account</h5>
                     <ul className="social-box">
                       <li>
-                        <a
+                        <Link 
                           href="https://www.facebook.com/"
                           className="fab fa-facebook-f"
-                        ></a>
+                        ></Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="https://www.twitter.com/"
                           className="fab fa-twitter"
-                        ></a>
+                        ></Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="https://dribbble.com/"
                           className="fab fa-dribbble"
-                        ></a>
+                        ></Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="https://www.linkedin.com/"
                           className="fab fa-linkedin"
-                        ></a>
+                        ></Link>
                       </li>
                     </ul>
                   </div>

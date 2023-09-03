@@ -5,7 +5,7 @@ const Blog = () => {
 			<div className="ori-breadcrumb-content text-center ul-li">
 				<h1>Contact Us </h1>
 				<ul>
-					<li><a href="index.html">neosyn infotech</a></li>
+					<li><Link href="index.html">neosyn infotech</Link></li>
 					<li>Contact Us </li>
 				</ul>
 			</div>
@@ -41,7 +41,7 @@ const Blog = () => {
 									</div>
 									<div className="info-text pera-content">
 										<h4>Phone</h4>
-										<a href="tel:+919826044668">+91 9826044668</a>
+										<Link href="tel:+919826044668">+91 9826044668</Link>
 									</div>
 								</div>
 								<div className="ori-contact-info d-flex align-items-center">
@@ -50,7 +50,7 @@ const Blog = () => {
 									</div>
 									<div className="info-text pera-content">
 										<h4>Email</h4>
-										<a href="mailto:neosyninfotech@gamil.com">neosyninfotech@gmail.com</a>
+										<Link href="mailto:neosyninfotech@gamil.com">neosyninfotech@gmail.com</Link>
 									</div>
 								</div>
 								<div className="ori-contact-info d-flex align-items-center">

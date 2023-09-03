@@ -10,7 +10,7 @@ const Faq = () => {
 					<div className="ori-breadcrumb-content text-center ul-li">
 						<h1>Faq</h1>
 						<ul>
-							<li><a href="index.html">orixy</a></li>
+							<li><Link href="index.html">orixy</Link></li>
 							<li>Faq</li>
 						</ul>
 					</div>
@@ -320,7 +320,7 @@ const Faq = () => {
 										</ul>
 									</div>
 									<div className="ori-faq-price-btn text-center text-uppercase">
-										<a href="#">purchase now</a>
+										<Link href="#">purchase now</Link>
 									</div>
 								</div>
 							</div>
@@ -345,7 +345,7 @@ const Faq = () => {
 										</ul>
 									</div>
 									<div className="ori-faq-price-btn text-center text-uppercase">
-										<a href="#">purchase now</a>
+										<Link href="#">purchase now</Link>
 									</div>
 								</div>
 							</div>
@@ -370,7 +370,7 @@ const Faq = () => {
 										</ul>
 									</div>
 									<div className="ori-faq-price-btn text-center text-uppercase">
-										<a href="#">purchase now</a>
+										<Link href="#">purchase now</Link>
 									</div>
 								</div>
 							</div>

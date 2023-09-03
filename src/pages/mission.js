@@ -13,7 +13,7 @@ setReloadKey(Math.random())
 			<div className="ori-breadcrumb-content text-center ul-li">
 				<h1>Our Mission</h1>
 				<ul>
-					<li><a href="index.html">orixy</a></li>
+					<li><Link href="index.html">orixy</Link></li>
 					<li>Our Mission</li>
 				</ul>
 			</div>
@@ -42,7 +42,7 @@ setReloadKey(Math.random())
 								<p>Rorem ipsum dolor sit ametconsectetur adipiscing elit,tempor Rorem ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod temporRorem ipsum dolor</p>
 							</div>
 							<div className="ori-btn-1 text-uppercase">
-								<a href="contact.html">GET IN TOUCH</a>
+								<Link href="contact.html">GET IN TOUCH</Link>
 							</div>
 						</div>
 					</div>
@@ -134,7 +134,7 @@ setReloadKey(Math.random())
 									</ul>
 								</div>
 								<div className="ori-vission-more-btn text-uppercase">
-									<a href="about.html">Read More <i className="fal fa-arrow-right"></i></a>
+									<Link href="about.html">Read More <i className="fal fa-arrow-right"></i></Link>
 								</div>
 							</div>
 						</div>
@@ -145,7 +145,7 @@ setReloadKey(Math.random())
 								<Image width={100000} height={10000} className="w-full h-auto" src="/img/about/v-play.png" alt=""/>
 							</div>
 							<div className="about-play-btn position-absolute">
-								<a className="text-uppercase video_box d-flex align-items-center justify-content-center" href="https://www.youtube.com/watch?v=bIoPkZRVll">Play</a>
+								<Link className="text-uppercase video_box d-flex align-items-center justify-content-center" href="https://www.youtube.com/watch?v=bIoPkZRVll">Play</Link>
 							</div>
 						</div>
 					</div>
@@ -173,58 +173,58 @@ setReloadKey(Math.random())
 				<div className="ori-sponsor-slider">
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
-							<a href="#">
+							<Link href="#">
 								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp1.png" alt=""/>
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
-							<a href="#">
+							<Link href="#">
 								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp2.png" alt=""/>
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
-							<a href="#">
+							<Link href="#">
 								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp3.png" alt=""/>
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
-							<a href="#">
+							<Link href="#">
 								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp4.png" alt=""/>
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
-							<a href="#">
+							<Link href="#">
 								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp5.png" alt=""/>
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
-							<a href="#">
+							<Link href="#">
 								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp1.png" alt=""/>
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
-							<a href="#">
+							<Link href="#">
 								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp2.png" alt=""/>
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className="ori-sponsor-item">
 						<div className="ori-sponsor-img">
-							<a href="#">
+							<Link href="#">
 								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp3.png" alt=""/>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

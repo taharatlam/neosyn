@@ -59,58 +59,58 @@ const LogoSlider = () => {
          
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
-                  <a href="#">
+                  <Link href="#">
                     <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp1.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
-                  <a href="#">
+                  <Link href="#">
                     <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp2.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
-                  <a href="#">
+                  <Link href="#">
                     <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp3.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
-                  <a href="#">
+                  <Link href="#">
                     <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp4.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
-                  <a href="#">
+                  <Link href="#">
                     <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp5.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
-                  <a href="#">
+                  <Link href="#">
                     <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp1.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
-                  <a href="#">
+                  <Link href="#">
                     <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp2.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="ori-sponsor-item">
                 <div className="ori-sponsor-img">
-                  <a href="#">
+                  <Link href="#">
                     <Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp3.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
           

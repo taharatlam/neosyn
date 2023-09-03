@@ -1,3 +1,5 @@
+import Link from "next/link";
+import Image from "next/image";
 function Breadcrumbs(props) {
     const {pageTitle, companyName} = props
   return (
@@ -11,7 +13,7 @@ function Breadcrumbs(props) {
           <h1>{pageTitle}</h1>
           <ul>
             <li>
-              <a href="/">{companyName}</a>
+              <Link href="/">{companyName}</Link>
             </li>
             <li>Services</li>
           </ul>

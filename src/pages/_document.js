@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import script from "next/script";
+import Link from "next/link";
 
 export default function Document() {
   return (
@@ -35,9 +36,9 @@ export default function Document() {
       <body className="ori-digital-studio">
       {/* <div id="preloader"></div> */}
         <div className="up">
-          <a href="#" className="scrollup text-center">
+          <Link href="#" className="scrollup text-center">
             <i className="fas fa-chevron-up"></i>
-          </a>
+          </Link>
         </div>
         <div className="cursor"></div>
         <div>

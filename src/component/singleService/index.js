@@ -24,12 +24,12 @@ const Service = ({ data }) => {
                       <Image width={100000} height={10000} className="w-full h-auto" src="/img/about/serd.png" alt="" />
                     </div>
                     <div className="about-play-btn position-absolute">
-                      <a
+                      <Link 
                         className="text-uppercase d-flex align-items-center justify-content-center"
                         href="#"
                       >
                         Play
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="ori-service-details-text pera-content">
@@ -232,39 +232,39 @@ const Service = ({ data }) => {
                       <h3 className="widget-title">Services</h3>
                       <ul>
                         <li>
-                          <a href="#">
+                          <Link href="#">
                             <span>01</span> Web Development
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link href="#">
                             <span>02</span> UI/UX Design
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link href="#">
                             <span>03</span> Digital Marketing
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link href="#">
                             <span>04</span> Product Design
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link href="#">
                             <span>05</span> Branding & Illustration
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link href="#">
                             <span>06</span> Mobile Solutions
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link href="#">
                             <span>07</span> App Development{" "}
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -300,8 +300,8 @@ const Service = ({ data }) => {
                     <div className="company-profile-widget">
                       <h3 className="widget-title">Company Profile</h3>
                       <div className="profile-download-btn text-center text-uppercase">
-                        <a href="#">download PDF</a>
-                        <a href="#">DOWNLOAD WORD FILE</a>
+                        <Link href="#">download PDF</Link>
+                        <Link href="#">DOWNLOAD WORD FILE</Link>
                       </div>
                     </div>
                   </div>

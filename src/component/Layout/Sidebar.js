@@ -25,17 +25,17 @@ function Sidebar() {
         <div className="xs-sidebar-widget">
           <div className="sidebar-widget-container">
             <div className="widget-heading">
-              <a href="#" className="close-side-widget">
+              <Link href="#" className="close-side-widget">
                 X
-              </a>
+              </Link>
             </div>
             <div className="sidebar-textwidget">
               <div className="sidebar-info-contents headline pera-content">
                 <div className="content-inner">
                   <div className="logo">
-                    <a href="index-1.html">
+                    <Link href="index-1.html">
                       <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="content-box">
                     <h5>About Us</h5>
@@ -51,52 +51,52 @@ function Sidebar() {
                     <h5>Gallery</h5>
                     <ul className="zoom-gallery">
                       <li>
-                        <a
+                        <Link 
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
                           <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl1.png" alt="" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
                           <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl2.png" alt="" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
                           <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl3.png" alt="" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
                           <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl4.png" alt="" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
                           <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl5.png" alt="" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="/img/blog/blg-f5.png"
                           data-source="/img/blog/blg-f5.png"
                         >
                           <Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl6.png" alt="" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -104,28 +104,28 @@ function Sidebar() {
                     <h5>Social Account</h5>
                     <ul className="social-box">
                       <li>
-                        <a
+                        <Link 
                           href="https://www.facebook.com/"
                           className="fab fa-facebook-f"
-                        ></a>
+                        ></Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="https://www.twitter.com/"
                           className="fab fa-twitter"
-                        ></a>
+                        ></Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="https://dribbble.com/"
                           className="fab fa-dribbble"
-                        ></a>
+                        ></Link>
                       </li>
                       <li>
-                        <a
+                        <Link 
                           href="https://www.linkedin.com/"
                           className="fab fa-linkedin"
-                        ></a>
+                        ></Link>
                       </li>
                     </ul>
                   </div>

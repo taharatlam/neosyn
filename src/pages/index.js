@@ -48,19 +48,19 @@ const Home = () => {
         <div className="ori-slider-social position-absolute text-uppercase ul-li">
           <ul>
             <li>
-              <a href="#">
+              <Link href="#">
                 <i className="fab fa-facebook-f"></i> Facebook
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link href="#">
                 <i className="fab fa-youtube"></i> Youtube
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link href="#">
                 <i className="fab fa-twitter"></i>twitter
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -73,12 +73,12 @@ const Home = () => {
                   and Brand <i className="fas fa-arrow-right"></i>
                 </h1>
                 <div className="slider-play-btn">
-                  <a
+                  <Link 
                     className="video_box d-flex align-items-center justify-content-center text-uppercase"
                     href="https://www.youtube.com/watch?v=O0pLvLtoESc"
                   >
                     PLAY
-                  </a>
+                  </Link>
                 </div>
                 <div className="ori-slider-img position-absolute">
                   <Image width={100000} height={10000} className="w-full h-auto" src="/img/slider/slider-1.png" alt="" />
@@ -92,12 +92,12 @@ const Home = () => {
                   and Brand <i className="fas fa-arrow-right"></i>
                 </h1>
                 <div className="slider-play-btn">
-                  <a
+                  <Link 
                     className="video_box d-flex align-items-center justify-content-center text-uppercase"
                     href="https://www.youtube.com/watch?v=O0pLvLtoESc"
                   >
                     PLAY
-                  </a>
+                  </Link>
                 </div>
                 <div className="ori-slider-img position-absolute">
                   <Image width={100000} height={10000} className="w-full h-auto" src="/img/slider/slider-1.png" alt="" />
@@ -111,12 +111,12 @@ const Home = () => {
                   and Brand <i className="fas fa-arrow-right"></i>
                 </h1>
                 <div className="slider-play-btn">
-                  <a
+                  <Link 
                     className="video_box d-flex align-items-center justify-content-center text-uppercase"
                     href="https://www.youtube.com/watch?v=O0pLvLtoESc"
                   >
                     PLAY
-                  </a>
+                  </Link>
                 </div>
                 <div className="ori-slider-img position-absolute">
                   <Image width={100000} height={10000} className="w-full h-auto" src="/img/slider/slider-1.png" alt="" />
@@ -164,7 +164,7 @@ const Home = () => {
               data-wow-delay="300ms"
               data-wow-duration="1500ms"
             >
-              <a href="service.html">Our services</a>
+              <Link href="service.html">Our services</Link>
             </div>
           </div>
           <div className="ori-service-content-1">
@@ -176,9 +176,9 @@ const Home = () => {
               >
                 <div className="ori-service-inner-item position-relative">
                   <div className="ori-service-more position-absolute">
-                    <a href="about.html">
+                    <Link href="about.html">
                       <i className="fas fa-arrow-right"></i>
-                    </a>
+                    </Link>
                   </div>
                   <div className="ori-service-img-title position-relative">
                     <div className="ori-service-img">
@@ -199,9 +199,9 @@ const Home = () => {
               >
                 <div className="ori-service-inner-item position-relative">
                   <div className="ori-service-more position-absolute">
-                    <a href="mission.html">
+                    <Link href="mission.html">
                       <i className="fas fa-arrow-right"></i>
-                    </a>
+                    </Link>
                   </div>
                   <div className="ori-service-img-title position-relative">
                     <div className="ori-service-img">
@@ -222,9 +222,9 @@ const Home = () => {
               >
                 <div className="ori-service-inner-item position-relative">
                   <div className="ori-service-more position-absolute">
-                    <a href="service.html">
+                    <Link href="service.html">
                       <i className="fas fa-arrow-right"></i>
-                    </a>
+                    </Link>
                   </div>
                   <div className="ori-service-img-title position-relative">
                     <div className="ori-service-img">
@@ -387,18 +387,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="ori-project-item-1 position-relative">
@@ -407,18 +407,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="ori-project-item-1 position-relative">
@@ -427,18 +427,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -454,18 +454,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="ori-project-item-1 position-relative">
@@ -474,18 +474,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="ori-project-item-1 position-relative">
@@ -494,18 +494,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -521,18 +521,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="ori-project-item-1 position-relative">
@@ -541,18 +541,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="ori-project-item-1 position-relative">
@@ -561,18 +561,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -588,18 +588,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="ori-project-item-1 position-relative">
@@ -608,18 +608,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="ori-project-item-1 position-relative">
@@ -628,18 +628,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -655,18 +655,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="ori-project-item-1 position-relative">
@@ -675,18 +675,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="ori-project-item-1 position-relative">
@@ -695,18 +695,18 @@ const Home = () => {
                       </div>
                       <div className="ori-project-text position-absolute">
                         <h3>
-                          <a href="portfolio-single.html">
+                          <Link href="portfolio-single.html">
                             Portrait Man Digital Art
-                          </a>
+                          </Link>
                         </h3>
                         <span className="text-uppercase project-category">
-                          <a href="#">Baskcate Ball Art</a>
+                          <Link href="#">Baskcate Ball Art</Link>
                         </span>
                       </div>
                       <div className="ori-project-link position-absolute">
-                        <a href="portfolio-single.html">
+                        <Link href="portfolio-single.html">
                           <i className="fas fa-arrow-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -719,7 +719,7 @@ const Home = () => {
             data-wow-delay="400ms"
             data-wow-duration="1500ms"
           >
-            <a href="portfolio.html">Visit our all work</a>
+            <Link href="portfolio.html">Visit our all work</Link>
           </div>
         </div>
       </div>
@@ -774,7 +774,7 @@ const Home = () => {
               data-wow-delay="300ms"
               data-wow-duration="1500ms"
             >
-              <a href="team.html">all Team Member</a>
+              <Link href="team.html">all Team Member</Link>
             </div>
           </div>
           <div className="ori-team-content-1">
@@ -790,23 +790,23 @@ const Home = () => {
                   </div>
                   <div className="ori-team-text text-center position-absolute">
                     <h3>
-                      <a href="team-single.html">Alextina Ditarson</a>
+                      <Link href="team-single.html">Alextina Ditarson</Link>
                     </h3>
                     <span>GRAPHIC DESIGNER</span>
                   </div>
                   <div className="ori-team-social text-center position-absolute">
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                       <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                       <i className="fab fa-instagram"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                       <i className="fab fa-youtube"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -821,23 +821,23 @@ const Home = () => {
                   </div>
                   <div className="ori-team-text text-center position-absolute">
                     <h3>
-                      <a href="team-single.html">Alextina Ditarson</a>
+                      <Link href="team-single.html">Alextina Ditarson</Link>
                     </h3>
                     <span>GRAPHIC DESIGNER</span>
                   </div>
                   <div className="ori-team-social text-center position-absolute">
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                       <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                       <i className="fab fa-instagram"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                       <i className="fab fa-youtube"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -852,23 +852,23 @@ const Home = () => {
                   </div>
                   <div className="ori-team-text text-center position-absolute">
                     <h3>
-                      <a href="team-single.html">Alextina Ditarson</a>
+                      <Link href="team-single.html">Alextina Ditarson</Link>
                     </h3>
                     <span>GRAPHIC DESIGNER</span>
                   </div>
                   <div className="ori-team-social text-center position-absolute">
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                       <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                       <i className="fab fa-instagram"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                       <i className="fab fa-youtube"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -957,7 +957,7 @@ const Home = () => {
             data-wow-delay="300ms"
             data-wow-duration="1500ms"
           >
-            <a href="blog.html">See all blogs</a>
+            <Link href="blog.html">See all blogs</Link>
           </div>
         </div>
         <div className="ori-blog-content-1">
@@ -973,16 +973,16 @@ const Home = () => {
                 </div>
                 <div className="blog-inner-text">
                   <h3>
-                    <a href="blog-single.html">
+                    <Link href="blog-single.html">
                       Accelerating UX Maturity With A Breakthrough Project
-                    </a>
+                    </Link>
                   </h3>
-                  <a
+                  <Link 
                     className="read-more text-uppercase"
                     href="blog-single.html"
                   >
                     Read more <i className="fal fa-chevron-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -997,16 +997,16 @@ const Home = () => {
                 </div>
                 <div className="blog-inner-text">
                   <h3>
-                    <a href="blog-single.html">
+                    <Link href="blog-single.html">
                       Jump Into July (2022 Desktop Wallpapers Edition)
-                    </a>
+                    </Link>
                   </h3>
-                  <a
+                  <Link 
                     className="read-more text-uppercase"
                     href="blog-single.html"
                   >
                     Read more <i className="fal fa-chevron-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1021,16 +1021,16 @@ const Home = () => {
                 </div>
                 <div className="blog-inner-text">
                   <h3>
-                    <a href="blog-single.html">
+                    <Link href="blog-single.html">
                       How To Build A Localized Website With Hugo And Strapi
-                    </a>
+                    </Link>
                   </h3>
-                  <a
+                  <Link 
                     className="read-more text-uppercase"
                     href="blog-single.html"
                   >
                     Read more <i className="fal fa-chevron-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -14,7 +14,7 @@ const Blog = () => {
 					<div className="ori-breadcrumb-content text-center ul-li">
 						<h1>News & Blog</h1>
 						<ul>
-							<li><a href="index.html">orixy</a></li>
+							<li><Link href="index.html">orixy</Link></li>
 							<li>News & Blog</li>
 						</ul>
 					</div>
@@ -54,7 +54,7 @@ const Blog = () => {
 												</div>
 												<div className="recent-blog-text">
 													<span className="date-meta text-uppercase">July 25,2022 </span>
-													<h3><a href="blog-single.html">We Advocate Swapping Screen Time </a></h3>
+													<h3><Link href="blog-single.html">We Advocate Swapping Screen Time </Link></h3>
 												</div>
 											</div>
 											<div className="ori-recent-post-item d-flex align-items-center">
@@ -63,7 +63,7 @@ const Blog = () => {
 												</div>
 												<div className="recent-blog-text">
 													<span className="date-meta text-uppercase">July 28,2022 </span>
-													<h3><a href="blog-single.html">Zechsal Magnesium flakes especially</a> </h3>
+													<h3><Link href="blog-single.html">Zechsal Magnesium flakes especially</Link> </h3>
 												</div>
 											</div>
 											<div className="ori-recent-post-item d-flex align-items-center">
@@ -72,7 +72,7 @@ const Blog = () => {
 												</div>
 												<div className="recent-blog-text">
 													<span className="date-meta text-uppercase">July 21,2022 </span>
-													<h3><a href="blog-single.html">A Simple Social Media Marketing Checklist</a> </h3>
+													<h3><Link href="blog-single.html">A Simple Social Media Marketing Checklist</Link> </h3>
 												</div>
 											</div>
 										</div>
@@ -81,12 +81,12 @@ const Blog = () => {
 										<div className="service-widget ul-li-block">
 											<h3 className="widget-title">Services</h3>
 											<ul>
-												<li><a href="blog.html">design<span>(3)</span></a></li>
-												<li><a href="blog.html">Development<span>(7)</span> </a></li>
-												<li><a href="blog.html">Digital Marketing<span>(5)</span></a> </li>
-												<li><a href="blog.html">Software<span>(2)</span></a></li>
-												<li><a href="blog.html">Business<span>(8)</span></a></li>
-												<li><a href="blog.html">seo <span>(4)</span></a></li>
+												<li><Link href="blog.html">design<span>(3)</span></Link></li>
+												<li><Link href="blog.html">Development<span>(7)</span> </Link></li>
+												<li><Link href="blog.html">Digital Marketing<span>(5)</span></Link> </li>
+												<li><Link href="blog.html">Software<span>(2)</span></Link></li>
+												<li><Link href="blog.html">Business<span>(8)</span></Link></li>
+												<li><Link href="blog.html">seo <span>(4)</span></Link></li>
 											</ul>
 										</div>
 									</div>
@@ -94,16 +94,16 @@ const Blog = () => {
 										<div className="tag-widget ul-li">
 											<h3 className="widget-title">Tags</h3>
 											<ul>
-												<li><a href="blog.html">design</a></li>
-												<li><a href="blog.html">digital</a></li>
-												<li><a href="blog.html">Content</a></li>
-												<li><a href="blog.html">innovation</a></li>
-												<li><a href="blog.html">marketing</a></li>
-												<li><a href="blog.html">mobile</a></li>
-												<li><a href="blog.html">tech</a></li>
-												<li><a href="blog.html">technology</a></li>
-												<li><a href="blog.html">web</a></li>
-												<li><a href="blog.html">wordpress</a></li>
+												<li><Link href="blog.html">design</Link></li>
+												<li><Link href="blog.html">digital</Link></li>
+												<li><Link href="blog.html">Content</Link></li>
+												<li><Link href="blog.html">innovation</Link></li>
+												<li><Link href="blog.html">marketing</Link></li>
+												<li><Link href="blog.html">mobile</Link></li>
+												<li><Link href="blog.html">tech</Link></li>
+												<li><Link href="blog.html">technology</Link></li>
+												<li><Link href="blog.html">web</Link></li>
+												<li><Link href="blog.html">wordpress</Link></li>
 											</ul>
 										</div>
 									</div>
@@ -111,19 +111,19 @@ const Blog = () => {
 										<div className="gallery-widget ul-li">
 											<h3 className="widget-title">Gallery</h3>
 											<ul className="zoom-gallery">
-												<li><a href="assets/img/blog/blg-f5.png" data-source="assets/img/blog/blg-f5.png"><Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl1.png" alt="" /></a></li>
-												<li><a href="assets/img/blog/blg-f5.png" data-source="assets/img/blog/blg-f5.png"><Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl2.png" alt="" /></a></li>
-												<li><a href="assets/img/blog/blg-f5.png" data-source="assets/img/blog/blg-f5.png"><Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl3.png" alt="" /></a></li>
-												<li><a href="assets/img/blog/blg-f5.png" data-source="assets/img/blog/blg-f5.png"><Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl4.png" alt="" /></a></li>
-												<li><a href="assets/img/blog/blg-f5.png" data-source="assets/img/blog/blg-f5.png"><Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl5.png" alt="" /></a></li>
-												<li><a href="assets/img/blog/blg-f5.png" data-source="assets/img/blog/blg-f5.png"><Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl6.png" alt="" /></a></li>
+												<li><Link href="assets/img/blog/blg-f5.png" data-source="assets/img/blog/blg-f5.png"><Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl1.png" alt="" /></Link></li>
+												<li><Link href="assets/img/blog/blg-f5.png" data-source="assets/img/blog/blg-f5.png"><Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl2.png" alt="" /></Link></li>
+												<li><Link href="assets/img/blog/blg-f5.png" data-source="assets/img/blog/blg-f5.png"><Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl3.png" alt="" /></Link></li>
+												<li><Link href="assets/img/blog/blg-f5.png" data-source="assets/img/blog/blg-f5.png"><Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl4.png" alt="" /></Link></li>
+												<li><Link href="assets/img/blog/blg-f5.png" data-source="assets/img/blog/blg-f5.png"><Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl5.png" alt="" /></Link></li>
+												<li><Link href="assets/img/blog/blg-f5.png" data-source="assets/img/blog/blg-f5.png"><Image width={100000} height={10000} className="w-full h-auto" src="/img/gallery/gl6.png" alt="" /></Link></li>
 											</ul>
 										</div>
 									</div>
 									<div className="ori-blog-add-widget">
-										<a href="contact.html">
+										<Link href="contact.html">
 											<Image width={100000} height={10000} className="w-full h-auto" src="/img/blog/blg-add.png" alt="" />
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -136,33 +136,33 @@ const Blog = () => {
 											</div>
 											<div className="ori-blog-text pera-content">
 												<div className="blog-meta text-uppercase">
-													<a className="blog-cate" href="blog.html"><i className="fas fa-file"></i> business</a>
-													<a className="blog-author" href="blog.html"><i className="fas fa-user"></i> orixy</a>
-													<a className="blog-date" href="blog.html"><i className="fas fa-calendar-alt"></i> July 28,2022</a>
-													<a className="blog-comment" href="#"><i className="fas fa-comment"></i> 05</a>
+													<Link className="blog-cate" href="blog.html"><i className="fas fa-file"></i> business</Link>
+													<Link className="blog-author" href="blog.html"><i className="fas fa-user"></i> orixy</Link>
+													<Link className="blog-date" href="blog.html"><i className="fas fa-calendar-alt"></i> July 28,2022</Link>
+													<Link className="blog-comment" href="#"><i className="fas fa-comment"></i> 05</Link>
 												</div>
-												<h3><a href="blog-single.html">How to Optimise and Webinar to Earn Leads</a></h3>
+												<h3><Link href="blog-single.html">How to Optimise and Webinar to Earn Leads</Link></h3>
 												<p>Research by American Marketing Association states that 60% of marketers include webinars in their marketing strategy. A survey by Curata also backs the importance of webinars where 79% of buyers are ready to share their contact details in exchange for webinar access.</p>
-												<a className="blog-more text-uppercase" href="blog-single.html">CONTINUE READING  <i className="fal fa-arrow-right"></i></a>
+												<Link className="blog-more text-uppercase" href="blog-single.html">CONTINUE READING  <i className="fal fa-arrow-right"></i></Link>
 											</div>
 										</div>
 										<div className="ori-blog-feed-item">
 											<div className="ori-blog-img position-relative">
 												<Image width={100000} height={10000} className="w-full h-auto" src="/img/blog/blg-f2.png" alt="" />
 												<div className="about-play-btn position-absolute">
-													<a className="text-uppercase video_box d-flex align-items-center justify-content-center" href="https://www.youtube.com/watch?v=bIoPkZRVll"><i className="fas fa-play"></i></a>
+													<Link className="text-uppercase video_box d-flex align-items-center justify-content-center" href="https://www.youtube.com/watch?v=bIoPkZRVll"><i className="fas fa-play"></i></Link>
 												</div>
 											</div>
 											<div className="ori-blog-text pera-content">
 												<div className="blog-meta text-uppercase">
-													<a className="blog-cate" href="blog.html"><i className="fas fa-file"></i> business</a>
-													<a className="blog-author" href="blog.html"><i className="fas fa-user"></i> orixy</a>
-													<a className="blog-date" href="blog.html"><i className="fas fa-calendar-alt"></i> July 28,2022</a>
-													<a className="blog-comment" href="#"><i className="fas fa-comment"></i> 05</a>
+													<Link className="blog-cate" href="blog.html"><i className="fas fa-file"></i> business</Link>
+													<Link className="blog-author" href="blog.html"><i className="fas fa-user"></i> orixy</Link>
+													<Link className="blog-date" href="blog.html"><i className="fas fa-calendar-alt"></i> July 28,2022</Link>
+													<Link className="blog-comment" href="#"><i className="fas fa-comment"></i> 05</Link>
 												</div>
-												<h3><a href="blog-single.html">How to Optimise and Webinar to Earn Leads</a></h3>
+												<h3><Link href="blog-single.html">How to Optimise and Webinar to Earn Leads</Link></h3>
 												<p>Research by American Marketing Association states that 60% of marketers include webinars in their marketing strategy. A survey by Curata also backs the importance of webinars where 79% of buyers are ready to share their contact details in exchange for webinar access.</p>
-												<a className="blog-more text-uppercase" href="blog-single.html">CONTINUE READING  <i className="fal fa-arrow-right"></i></a>
+												<Link className="blog-more text-uppercase" href="blog-single.html">CONTINUE READING  <i className="fal fa-arrow-right"></i></Link>
 											</div>
 										</div>
 										<div className="ori-blog-feed-item">
@@ -171,14 +171,14 @@ const Blog = () => {
 											</div>
 											<div className="ori-blog-text pera-content">
 												<div className="blog-meta text-uppercase">
-													<a className="blog-cate" href="blog.html"><i className="fas fa-file"></i> business</a>
-													<a className="blog-author" href="blog.html"><i className="fas fa-user"></i> orixy</a>
-													<a className="blog-date" href="blog.html"><i className="fas fa-calendar-alt"></i> July 28,2022</a>
-													<a className="blog-comment" href="#"><i className="fas fa-comment"></i> 05</a>
+													<Link className="blog-cate" href="blog.html"><i className="fas fa-file"></i> business</Link>
+													<Link className="blog-author" href="blog.html"><i className="fas fa-user"></i> orixy</Link>
+													<Link className="blog-date" href="blog.html"><i className="fas fa-calendar-alt"></i> July 28,2022</Link>
+													<Link className="blog-comment" href="#"><i className="fas fa-comment"></i> 05</Link>
 												</div>
-												<h3><a href="blog-single.html">How to Optimise and Webinar to Earn Leads</a></h3>
+												<h3><Link href="blog-single.html">How to Optimise and Webinar to Earn Leads</Link></h3>
 												<p>Research by American Marketing Association states that 60% of marketers include webinars in their marketing strategy. A survey by Curata also backs the importance of webinars where 79% of buyers are ready to share their contact details in exchange for webinar access.</p>
-												<a className="blog-more text-uppercase" href="blog-single.html">CONTINUE READING  <i className="fal fa-arrow-right"></i></a>
+												<Link className="blog-more text-uppercase" href="blog-single.html">CONTINUE READING  <i className="fal fa-arrow-right"></i></Link>
 											</div>
 										</div>
 										<div className="ori-blog-feed-item">
@@ -201,24 +201,24 @@ const Blog = () => {
 											</div>
 											<div className="ori-blog-text pera-content">
 												<div className="blog-meta text-uppercase">
-													<a className="blog-cate" href="blog.html"><i className="fas fa-file"></i> business</a>
-													<a className="blog-author" href="blog.html"><i className="fas fa-user"></i> orixy</a>
-													<a className="blog-date" href="blog.html"><i className="fas fa-calendar-alt"></i> July 28,2022</a>
-													<a className="blog-comment" href="#"><i className="fas fa-comment"></i> 05</a>
+													<Link className="blog-cate" href="blog.html"><i className="fas fa-file"></i> business</Link>
+													<Link className="blog-author" href="blog.html"><i className="fas fa-user"></i> orixy</Link>
+													<Link className="blog-date" href="blog.html"><i className="fas fa-calendar-alt"></i> July 28,2022</Link>
+													<Link className="blog-comment" href="#"><i className="fas fa-comment"></i> 05</Link>
 												</div>
-												<h3><a href="blog-single.html">How to Optimise and Webinar to Earn Leads</a></h3>
+												<h3><Link href="blog-single.html">How to Optimise and Webinar to Earn Leads</Link></h3>
 												<p>Research by American Marketing Association states that 60% of marketers include webinars in their marketing strategy. A survey by Curata also backs the importance of webinars where 79% of buyers are ready to share their contact details in exchange for webinar access.</p>
-												<a className="blog-more text-uppercase" href="blog-single.html">CONTINUE READING  <i className="fal fa-arrow-right"></i></a>
+												<Link className="blog-more text-uppercase" href="blog-single.html">CONTINUE READING  <i className="fal fa-arrow-right"></i></Link>
 											</div>
 										</div>
 									</div>
 									<div className="ori-pagination-wrap ul-li">
 										<ul>
-											<li><a href="#"><i className="fal fa-arrow-left"></i></a></li>
-											<li><a href="#">1</a></li>
-											<li><a href="#">2</a></li>
-											<li><a href="#">3</a></li>
-											<li><a href="#"><i className="fal fa-arrow-right"></i></a></li>
+											<li><Link href="#"><i className="fal fa-arrow-left"></i></Link></li>
+											<li><Link href="#">1</Link></li>
+											<li><Link href="#">2</Link></li>
+											<li><Link href="#">3</Link></li>
+											<li><Link href="#"><i className="fal fa-arrow-right"></i></Link></li>
 										</ul>
 									</div>
 								</div>

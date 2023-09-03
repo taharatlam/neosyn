@@ -24,23 +24,23 @@ const OurTeam = () => {
                     </div>
                     <div className="ori-team-text text-center position-absolute">
                       <h3>
-                        <a href="team-single.html">Alextina Ditarson</a>
+                        <Link href="team-single.html">Alextina Ditarson</Link>
                       </h3>
                       <span>GRAPHIC DESIGNER</span>
                     </div>
                     <div className="ori-team-social text-center position-absolute">
-                      <a href="#">
+                      <Link href="#">
                         <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-instagram"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-youtube"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -51,23 +51,23 @@ const OurTeam = () => {
                     </div>
                     <div className="ori-team-text text-center position-absolute">
                       <h3>
-                        <a href="team-single.html">Alextina Ditarson</a>
+                        <Link href="team-single.html">Alextina Ditarson</Link>
                       </h3>
                       <span>GRAPHIC DESIGNER</span>
                     </div>
                     <div className="ori-team-social text-center position-absolute">
-                      <a href="#">
+                      <Link href="#">
                         <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-instagram"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-youtube"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -78,23 +78,23 @@ const OurTeam = () => {
                     </div>
                     <div className="ori-team-text text-center position-absolute">
                       <h3>
-                        <a href="team-single.html">Alextina Ditarson</a>
+                        <Link href="team-single.html">Alextina Ditarson</Link>
                       </h3>
                       <span>GRAPHIC DESIGNER</span>
                     </div>
                     <div className="ori-team-social text-center position-absolute">
-                      <a href="#">
+                      <Link href="#">
                         <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-instagram"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-youtube"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -105,23 +105,23 @@ const OurTeam = () => {
                     </div>
                     <div className="ori-team-text text-center position-absolute">
                       <h3>
-                        <a href="team-single.html">Alextina Ditarson</a>
+                        <Link href="team-single.html">Alextina Ditarson</Link>
                       </h3>
                       <span>GRAPHIC DESIGNER</span>
                     </div>
                     <div className="ori-team-social text-center position-absolute">
-                      <a href="#">
+                      <Link href="#">
                         <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-instagram"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-youtube"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -132,23 +132,23 @@ const OurTeam = () => {
                     </div>
                     <div className="ori-team-text text-center position-absolute">
                       <h3>
-                        <a href="team-single.html">Alextina Ditarson</a>
+                        <Link href="team-single.html">Alextina Ditarson</Link>
                       </h3>
                       <span>GRAPHIC DESIGNER</span>
                     </div>
                     <div className="ori-team-social text-center position-absolute">
-                      <a href="#">
+                      <Link href="#">
                         <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-instagram"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-youtube"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -159,23 +159,23 @@ const OurTeam = () => {
                     </div>
                     <div className="ori-team-text text-center position-absolute">
                       <h3>
-                        <a href="team-single.html">Alextina Ditarson</a>
+                        <Link href="team-single.html">Alextina Ditarson</Link>
                       </h3>
                       <span>GRAPHIC DESIGNER</span>
                     </div>
                     <div className="ori-team-social text-center position-absolute">
-                      <a href="#">
+                      <Link href="#">
                         <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-instagram"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link href="#">
                         <i className="fab fa-youtube"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

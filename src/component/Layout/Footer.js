@@ -17,9 +17,9 @@ function Footer() {
             <div className="col-lg-3 col-md-6">
               <div className="ori-footer-widget">
                 <div className="logo-widget">
-                  <a href="#">
+                  <Link href="#">
                     <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -29,19 +29,19 @@ function Footer() {
                   <h2 className="widget-title text-uppercase">Our Location</h2>
                   <ul>
                     <li>
-                      <a href="#">London</a>
+                      <Link href="#">London</Link>
                     </li>
                     <li>
-                      <a href="#">America</a>
+                      <Link href="#">America</Link>
                     </li>
                     <li>
-                      <a href="#">Constarica</a>
+                      <Link href="#">Constarica</Link>
                     </li>
                     <li>
-                      <a href="#">Germany</a>
+                      <Link href="#">Germany</Link>
                     </li>
                     <li>
-                      <a href="#">India</a>
+                      <Link href="#">India</Link>
                     </li>
                   </ul>
                 </div>
@@ -54,7 +54,7 @@ function Footer() {
                   <div className="contact-info">
                     <span>ECA-135/A, 25/2 Barlin, Germany </span>
                     <span>(+250)155 69569 365</span>
-                    <a href="#">support@orixy.com</a>
+                    <Link href="#">support@orixy.com</Link>
                     <span>Office Hours: 8AM - 11PM</span>
                     <span>Sunday - Wekend Day</span>
                   </div>
@@ -88,18 +88,18 @@ function Footer() {
             © 2022 All Right Recived - Orixy - Themexriver
           </div>
           <div className="ori-copyright-social">
-            <a href="#">
+            <Link href="#">
               <i className="fab fa-facebook-f"></i>
-            </a>
-            <a href="#">
+            </Link>
+            <Link href="#">
               <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#">
+            </Link>
+            <Link href="#">
               <i className="fab fa-instagram"></i>
-            </a>
-            <a href="#">
+            </Link>
+            <Link href="#">
               <i className="fab fa-youtube"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

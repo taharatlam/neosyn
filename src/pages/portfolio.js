@@ -7,7 +7,7 @@ const Portfolio = () => {
 			<div className="ori-breadcrumb-content text-center ul-li">
 				<h1>Portfolio Grid</h1>
 				<ul>
-					<li><a href="index.html">orixy</a></li>
+					<li><Link href="index.html">orixy</Link></li>
 					<li>Portfolio Grid</li>
 				</ul>
 			</div>
@@ -42,8 +42,8 @@ const Portfolio = () => {
 							<Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser1.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
-							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
-							<h3><a href="portfolio-single.html">Effective solution For Your Business</a></h3>
+							<span className="port-category text-uppercase"><Link href="portfolio.html">Web design</Link></span>
+							<h3><Link href="portfolio-single.html">Effective solution For Your Business</Link></h3>
 						</div>
 					</div>
 				</div>
@@ -53,8 +53,8 @@ const Portfolio = () => {
 							<Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser2.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
-							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
-							<h3><a href="portfolio-single.html">Effective solution For Your Business</a></h3>
+							<span className="port-category text-uppercase"><Link href="portfolio.html">Web design</Link></span>
+							<h3><Link href="portfolio-single.html">Effective solution For Your Business</Link></h3>
 						</div>
 					</div>
 				</div>
@@ -64,8 +64,8 @@ const Portfolio = () => {
 							<Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser3.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
-							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
-							<h3><a href="portfolio-single.html">Effective solution For Your Business</a></h3>
+							<span className="port-category text-uppercase"><Link href="portfolio.html">Web design</Link></span>
+							<h3><Link href="portfolio-single.html">Effective solution For Your Business</Link></h3>
 						</div>
 					</div>
 				</div>
@@ -75,8 +75,8 @@ const Portfolio = () => {
 							<Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro4.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
-							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
-							<h3><a href="portfolio-single.html">Effective solution For Your Business</a></h3>
+							<span className="port-category text-uppercase"><Link href="portfolio.html">Web design</Link></span>
+							<h3><Link href="portfolio-single.html">Effective solution For Your Business</Link></h3>
 						</div>
 					</div>
 				</div>
@@ -86,8 +86,8 @@ const Portfolio = () => {
 							<Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro5.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
-							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
-							<h3><a href="portfolio-single.html">Effective solution For Your Business</a></h3>
+							<span className="port-category text-uppercase"><Link href="portfolio.html">Web design</Link></span>
+							<h3><Link href="portfolio-single.html">Effective solution For Your Business</Link></h3>
 						</div>
 					</div>
 				</div>
@@ -97,8 +97,8 @@ const Portfolio = () => {
 							<Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro6.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
-							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
-							<h3><a href="portfolio-single.html">Effective solution For Your Business</a></h3>
+							<span className="port-category text-uppercase"><Link href="portfolio.html">Web design</Link></span>
+							<h3><Link href="portfolio-single.html">Effective solution For Your Business</Link></h3>
 						</div>
 					</div>
 				</div>
@@ -108,8 +108,8 @@ const Portfolio = () => {
 							<Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro7.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
-							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
-							<h3><a href="portfolio-single.html">Effective solution For Your Business</a></h3>
+							<span className="port-category text-uppercase"><Link href="portfolio.html">Web design</Link></span>
+							<h3><Link href="portfolio-single.html">Effective solution For Your Business</Link></h3>
 						</div>
 					</div>
 				</div>
@@ -119,8 +119,8 @@ const Portfolio = () => {
 							<Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro8.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
-							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
-							<h3><a href="portfolio-single.html">Effective solution For Your Business</a></h3>
+							<span className="port-category text-uppercase"><Link href="portfolio.html">Web design</Link></span>
+							<h3><Link href="portfolio-single.html">Effective solution For Your Business</Link></h3>
 						</div>
 					</div>
 				</div>
@@ -130,15 +130,15 @@ const Portfolio = () => {
 							<Image width={100000} height={10000} className="w-full h-auto" src="/img/project/pro9.png" alt=""/>
 						</div>
 						<div className="portfolio-text">
-							<span className="port-category text-uppercase"><a href="portfolio.html">Web design</a></span>
-							<h3><a href="portfolio-single.html">Effective solution For Your Business</a></h3>
+							<span className="port-category text-uppercase"><Link href="portfolio.html">Web design</Link></span>
+							<h3><Link href="portfolio-single.html">Effective solution For Your Business</Link></h3>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div  className="ori-portfolio-more-btn text-center">
 				<div className="ori-btn-1 text-uppercase">
-					<a href="#">load more projects</a>
+					<Link href="#">load more projects</Link>
 				</div>
 			</div>
 		</div>
