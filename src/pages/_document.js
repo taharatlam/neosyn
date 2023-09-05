@@ -19,19 +19,19 @@ export default function Document() {
         />
         <meta name="author" content="Themexriver" />
         <meta name="Viewport" content="width=device-width, initial-scale=1"/>
-        <link
-          rel="shortcut icon"
-          href="/img/logo/ficon.png"
-          type="image/x-icon"
-        />
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/fontawesome-all.css" />
-        <link rel="stylesheet" href="css/animate.css" />
+          {/* <link
+            rel="shortcut icon"
+            href="/img/logo/ficon.png"
+            type="image/x-icon"
+          />
+          <link rel="stylesheet" href="css/bootstrap.min.css" /> */}
+        {/* <link rel="stylesheet" href="css/fontawesome-all.css" /> */}
+        {/* <link rel="stylesheet" href="css/animate.css" />
         <link rel="stylesheet" href="css/video.min.css" />
         <link rel="stylesheet" href="css/slick-theme.css" />
         <link rel="stylesheet" href="css/slick.css" />
         <link rel="stylesheet" href="css/global.css" />
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style.css" /> */}
       </Head>
       <body className="ori-digital-studio">
       {/* <div id="preloader"></div> */}
@@ -40,12 +40,12 @@ export default function Document() {
             <i className="fas fa-chevron-up"></i>
           </Link>
         </div>
-        <div className="cursor"></div>
+        {/* <div className="cursor"></div> */}
         <div>
         <Main />
         <NextScript />
         </div>
-        <script src="/js/jquery.min.js"></script>
+        {/* <script src="/js/jquery.min.js"></script>
         <script src="/js/jquery-ui.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/popper.min.js"></script>
@@ -65,7 +65,7 @@ export default function Document() {
         <script src="/js/waypoints.min.js"></script>
         <script src="/js/jquery.magnific-popup.min.js"></script>
         <script src="/js/jquery.marquee.min.js"></script>
-        <script src="/js/script.js"></script>
+        <script src="/js/script.js"></script> */}
       </body>
     </Html>
   );

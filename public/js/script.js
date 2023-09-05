@@ -27,7 +27,7 @@ Last change:    00/00/00
 				this.searchPopUp();
 				this.scrollTop();
 				this.counterUp();
-				this.TwinMax();
+				// this.TwinMax();
 				this.MainSLider();
 				this.SponsorSlider1();
 				this.SponsorSlider2();
@@ -92,13 +92,13 @@ Last change:    00/00/00
 				}
 			},
 			StickyHeader: function (){
-				jQuery(window).on('scroll', function() {
-					if (jQuery(window).scrollTop() > 250) {
-						jQuery('.ori-header-section').addClass('sticky-on')
-					} else {
-						jQuery('.ori-header-section').removeClass('sticky-on')
-					}
-				});
+				// jQuery(window).on('scroll', function() {
+				// 	if (jQuery(window).scrollTop() > 250) {
+				// 		jQuery('.ori-header-section').addClass('sticky-on')
+				// 	} else {
+				// 		jQuery('.ori-header-section').removeClass('sticky-on')
+				// 	}
+				// });
 				jQuery(document).ready(function (o) {
 					// 0 < o(".navSidebar-button").length &&
 					// o(".navSidebar-button").on("click", function (e) {

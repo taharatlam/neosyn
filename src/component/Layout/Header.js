@@ -3,6 +3,8 @@ import { services } from "@/constant";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import styled from 'styled-components';
+import CustomCursor from "../CustomCursor";
 
 const Header = (props) => {
   const servicesType = [...services.serviceType];
@@ -15,17 +17,40 @@ const Header = (props) => {
       document.body.classList.remove('search-active');
     }
 
+    
+
     return () => {
       document.body.classList.remove('search-active');
     };
   }, [isSearchActive]);
+
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 250) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  
+  
   return (
     <>
-      <header id="ori-header" className="ori-header-section header-style-one">
+    <CustomCursor />
+      <header id="ori-header" className={`ori-header-section header-style-one ${isSticky ? 'sticky-on' : ''}`}>
         <div className="ori-header-content-area">
           <div className="ori-header-content d-flex align-items-center justify-content-between">
             <div className="brand-logo">
-              <Link href="#">
+              <Link href="/">
                 <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
               </Link>
             </div>
@@ -33,7 +58,7 @@ const Header = (props) => {
               <div className="ori-main-navigation clearfix ul-li">
                 <ul id="main-nav" className="nav navbar-nav clearfix">
                   <li className="dropdown ori-megamenu">
-                    <Link href="/">Home</Link>
+                    <Link href="/">Home1</Link>
                   </li>
 
                   <li className="dropdown">
