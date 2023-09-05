@@ -33,8 +33,7 @@ export default function App({ Component, pageProps }) {
       <motion.div key={pathname}>
         <Layout>
           <Component {...pageProps} />
-          <motion.div 
-          id="preloader"
+          <motion.div id="preloader"
           initialvalue={{opacity:1,display: "block"}}
           animate={{opacity:0,transitionEnd: { display: "none" },transition: { delay: 1 } }}
           exit={{opacity:0}}
