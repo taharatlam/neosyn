@@ -33,7 +33,14 @@ export default function App({ Component, pageProps }) {
       <motion.div key={pathname}>
         <Layout>
           <Component {...pageProps} />
-          <motion.div
+          <motion.div 
+          id="preloader"
+          initialvalue={{opacity:1,display: "block"}}
+          animate={{opacity:0,transitionEnd: { display: "none" },transition: { delay: 1 } }}
+          exit={{opacity:0}}
+          transition={{duration:1}}>
+          </motion.div>
+          {/* <motion.div
           className="slide-in"
           initialvalue={{scaleY:0}}
           animate={{scaleY:0}}
@@ -46,7 +53,7 @@ export default function App({ Component, pageProps }) {
           animate={{scaleY:0}}
           exit={{scaleY:0}}
           transition={{duration:1,ease:[0.22,1,0.36,1]}}
-          ></motion.div>
+          ></motion.div> */}
         </Layout>
       </motion.div>
     </AnimatePresence>

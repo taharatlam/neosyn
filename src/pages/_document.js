@@ -34,7 +34,7 @@ export default function Document() {
         <link rel="stylesheet" href="css/style.css" /> */}
       </Head>
       <body className="ori-digital-studio">
-      {/* <div id="preloader"></div> */}
+     
         <div className="up">
           <Link href="#" className="scrollup text-center">
             <i className="fas fa-chevron-up"></i>
