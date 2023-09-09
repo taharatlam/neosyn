@@ -7,7 +7,10 @@ import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
 import Link from "next/link";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMouse
+} from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   
@@ -141,7 +144,8 @@ const Home = () => {
       <div className="ori-slider-scroll position-absolute text-uppercase">
         <span>SCrool </span>
         <div className="scroll-mouse">
-          <i className="fal fa-mouse"></i>
+          {/* <i className="fal fa-mouse"></i> */}
+          <FontAwesomeIcon icon={faMouse} />
         </div>
       </div>
     </section>

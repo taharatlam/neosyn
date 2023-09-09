@@ -13595,4 +13595,13 @@ Font load
   margin: 0 auto;
   margin-bottom: 1.2em;
 }
+.dropdown.open .dropdown-menu{
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+}
+.dropdown .dropdown-menu{
+  max-height: 100px;
+  display: block !important;
+  overflow: hidden;
+}
 /*---------------------------------------------------- */
