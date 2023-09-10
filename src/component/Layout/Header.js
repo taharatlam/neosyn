@@ -81,7 +81,7 @@ const Header = (props) => {
                   </li>
 
                   <li className="dropdown">
-                    <Link href="#">About</Link>
+                    <Link href="/about">About</Link>
                     <ul className="dropdown-menu clearfix">
                       <li>
                         <Link href="/our-team">Our Team</Link>

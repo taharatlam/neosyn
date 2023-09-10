@@ -9,7 +9,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faMouse
+  faArrowRight,
+  faMouse,
+  faFacebookF
 } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
@@ -185,7 +187,8 @@ const Home = () => {
                 <div className="ori-service-inner-item position-relative">
                   <div className="ori-service-more position-absolute">
                     <Link href="about.html">
-                      <i className="fas fa-arrow-right"></i>
+                      {/* <i className="fas fa-arrow-right"></i> */}
+                      <FontAwesomeIcon icon={faArrowRight} />
                     </Link>
                   </div>
                   <div className="ori-service-img-title position-relative">
@@ -208,7 +211,8 @@ const Home = () => {
                 <div className="ori-service-inner-item position-relative">
                   <div className="ori-service-more position-absolute">
                     <Link href="mission.html">
-                      <i className="fas fa-arrow-right"></i>
+                      {/* <i className="fas fa-arrow-right"></i> */}
+                      <FontAwesomeIcon icon={faArrowRight} />
                     </Link>
                   </div>
                   <div className="ori-service-img-title position-relative">
@@ -231,7 +235,8 @@ const Home = () => {
                 <div className="ori-service-inner-item position-relative">
                   <div className="ori-service-more position-absolute">
                     <Link href="service.html">
-                      <i className="fas fa-arrow-right"></i>
+                      {/* <i className="fas fa-arrow-right"></i> */}
+                      <FontAwesomeIcon icon={faArrowRight} />
                     </Link>
                   </div>
                   <div className="ori-service-img-title position-relative">
@@ -804,7 +809,8 @@ const Home = () => {
                   </div>
                   <div className="ori-team-social text-center position-absolute">
                     <Link href="#">
-                      <i className="fab fa-facebook-f"></i>
+                      {/* <i className="fab fa-facebook-f"></i> */}
+                      <FontAwesomeIcon icon={faFacebookF} />
                     </Link>
                     <Link href="#">
                       <i className="fab fa-twitter"></i>

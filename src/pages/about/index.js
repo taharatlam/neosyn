@@ -1,4 +1,5 @@
 import LogoSlider from "@/component/LogoSlider";
+import ProgressCounter from "@/component/ProgressCounter";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,7 +7,7 @@ const About = () => {
   return (
     <>
 
-	<section id="ori-breadcrumbs" className="ori-breadcrumbs-section position-relative" data-background="assets/img/bg/bread-bg.png">
+	<section id="ori-breadcrumbs" className="ori-breadcrumbs-section position-relative" data-background="/assets/img/bg/bread-bg.png">
 		<div className="container">
 			<div className="ori-breadcrumb-content text-center ul-li">
 				<h1>About Us</h1>
@@ -41,32 +42,33 @@ const About = () => {
 			</div>
 			<div className="ori-about-play-area position-relative">
 				<div className="ori-about-play-img">
-					<Image src="assets/img/about/play-bg.png" alt="" />
+					<Image height={10000} width={10000} src="/assets/img/about/play-bg.png" alt="" />
 				</div>
 				<div className="about-play-btn position-absolute">
 					<Link className="text-uppercase video_box d-flex align-items-center justify-content-center" href="https://www.youtube.com/watch?v=bIoPkZRVll">Play</Link>
 				</div>
 			</div>
-			<div className="ori-about-counter-area">
-				<div className="ori-about-counter-item-wrap d-flex justify-content-between">
-					<div className="ori-about-counter-item pera-content">
-						<h3><span className="counter">15</span>+</h3>
-						<p className="text-uppercase"><span>//</span> YEARS EXPERIENCE</p>
+      <div class="ori-about-counter-area">
+				<div class="ori-about-counter-item-wrap d-flex justify-content-between">
+					<div class="ori-about-counter-item pera-content">
+						<h3><span class="counter">15</span>+</h3>
+						<p class="text-uppercase"><span>//</span> YEARS EXPERIENCE</p>
 					</div>
-					<div className="ori-about-counter-item pera-content">
-						<h3><span className="counter">330</span>+</h3>
-						<p className="text-uppercase"><span>//</span> PROJECT FINISHED</p>
+					<div class="ori-about-counter-item pera-content">
+						<h3><span class="counter">330</span>+</h3>
+						<p class="text-uppercase"><span>//</span> PROJECT FINISHED</p>
 					</div>
-					<div className="ori-about-counter-item pera-content">
-						<h3><span className="counter">95</span>M</h3>
-						<p className="text-uppercase"><span>//</span> RECOGNITION</p>
+					<div class="ori-about-counter-item pera-content">
+						<h3><span class="counter">95</span>M</h3>
+						<p class="text-uppercase"><span>//</span> RECOGNITION</p>
 					</div>
-					<div className="ori-about-counter-item pera-content">
-						<h3><span className="counter">250</span>K+</h3>
-						<p className="text-uppercase"><span>//</span> HAPPY CLIENTS</p>
+					<div class="ori-about-counter-item pera-content">
+						<h3><span class="counter">250</span>K+</h3>
+						<p class="text-uppercase"><span>//</span> HAPPY CLIENTS</p>
 					</div>
 				</div>
 			</div>
+		
 		</div>
 		<div className="line_animation">
 			<div className="line_area"></div>
@@ -92,42 +94,55 @@ const About = () => {
 				</div>
 			</div>
 			<div className="ori-about-circle-progress-item-wrap d-flex align-items-center justify-content-between">
-				<div className="ori-about-circle-progress-item">
-					<div className="counter-boxed text-center headline position-relative">
-						<div className="graph-outer">
-							<input type="text" className="dial" data-fgColor="#FF7425" data-bgColor="#fff" data-width="180" data-height="180" data-linecap="round"  value="85" />
-							<div className="inner-text count-box"><span className="count-text" data-stop="85" data-speed="4500"></span>%</div>
-						</div>
-						<h3 className="text-uppercase">fRONTEND</h3>
-					</div>
-				</div>
-				<div className="ori-about-circle-progress-item">
-					<div className="counter-boxed text-center headline position-relative">
-						<div className="graph-outer">
-							<input type="text" className="dial" data-fgColor="#FF7425" data-bgColor="#fff" data-width="180" data-height="180" data-linecap="round"  value="90" />
-							<div className="inner-text count-box"><span className="count-text" data-stop="90" data-speed="4500"></span>%</div>
-						</div>
-						<h3 className="text-uppercase">backend</h3>
-					</div>
-				</div>
-				<div className="ori-about-circle-progress-item">
-					<div className="counter-boxed text-center headline position-relative">
-						<div className="graph-outer">
-							<input type="text" className="dial" data-fgColor="#FF7425" data-bgColor="#fff" data-width="180" data-height="180" data-linecap="round"  value="70" />
-							<div className="inner-text count-box"><span className="count-text" data-stop="70" data-speed="4500"></span>%</div>
-						</div>
-						<h3 className="text-uppercase">mobile development</h3>
-					</div>
-				</div>
-				<div className="ori-about-circle-progress-item">
-					<div className="counter-boxed text-center headline position-relative">
-						<div className="graph-outer">
-							<input type="text" className="dial" data-fgColor="#FF7425" data-bgColor="#fff" data-width="180" data-height="180" data-linecap="round"  value="92" />
-							<div className="inner-text count-box"><span className="count-text" data-stop="92" data-speed="4500"></span>%</div>
-						</div>
-						<h3 className="text-uppercase">web development</h3>
-					</div>
-				</div>
+				
+        <div className="ori-about-circle-progress-item">
+          <div className="counter-boxed text-center headline position-relative">
+            <div className="circ-p-wrapper">
+              <ProgressCounter value={90} />
+            </div>
+            <h3 className="text-uppercase">product sales</h3>
+            <h3 className="text-uppercase">
+              {" "}
+              growing per month
+            </h3>
+          </div>
+        </div>
+        <div className="ori-about-circle-progress-item">
+          <div className="counter-boxed text-center headline position-relative">
+            <div className="circ-p-wrapper">
+              <ProgressCounter value={90} />
+            </div>
+            <h3 className="text-uppercase">product sales</h3>
+            <h3 className="text-uppercase">
+              {" "}
+              backend
+            </h3>
+          </div>
+        </div>
+        <div className="ori-about-circle-progress-item">
+          <div className="counter-boxed text-center headline position-relative">
+            <div className="circ-p-wrapper">
+              <ProgressCounter value={90} />
+            </div>
+            <h3 className="text-uppercase">product sales</h3>
+            <h3 className="text-uppercase">
+              {" "}
+              mobile development
+            </h3>
+          </div>
+        </div>
+        <div className="ori-about-circle-progress-item">
+          <div className="counter-boxed text-center headline position-relative">
+            <div className="circ-p-wrapper">
+              <ProgressCounter value={90} />
+            </div>
+            <h3 className="text-uppercase">product sales</h3>
+            <h3 className="text-uppercase">
+              {" "}
+              web development
+            </h3>
+          </div>
+        </div>
 			</div>
 		</div>
 		<div className="line_animation">
@@ -158,7 +173,7 @@ const About = () => {
 						<div className="col-lg-4">
 							<div className="ori-team-inner-item position-relative">
 								<div className="ori-team-img">
-									<Image src="assets/img/team/tm1.png" alt="" />
+									<Image height={10000} width={10000} src="/assets/img/team/tm1.png" alt="" />
 								</div>
 								<div className="ori-team-text text-center position-absolute">
 									<h3><Link href="team-single.html">Alextina Ditarson</Link></h3>
@@ -175,7 +190,7 @@ const About = () => {
 						<div className="col-lg-4">
 							<div className="ori-team-inner-item position-relative">
 								<div className="ori-team-img">
-									<Image src="assets/img/team/tm2.png" alt="" />
+									<Image height={10000} width={10000} src="/assets/img/team/tm2.png" alt="" />
 								</div>
 								<div className="ori-team-text text-center position-absolute">
 									<h3><Link href="team-single.html">Alextina Ditarson</Link></h3>
@@ -192,7 +207,7 @@ const About = () => {
 						<div className="col-lg-4">
 							<div className="ori-team-inner-item position-relative">
 								<div className="ori-team-img">
-									<Image src="assets/img/team/tm3.png" alt="" />
+									<Image height={10000} width={10000} src="/assets/img/team/tm3.png" alt="" />
 								</div>
 								<div className="ori-team-text text-center position-absolute">
 									<h3><Link href="team-single.html">Alextina Ditarson</Link></h3>
