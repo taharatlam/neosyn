@@ -1,5 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faEnvelope,
+	faMapMarkerAlt,
+	faPhoneAlt
+} from "@fortawesome/free-solid-svg-icons";
+
 
 const Blog = () => {
     return <div>
@@ -40,7 +47,7 @@ const Blog = () => {
 							<div className="ori-contact-form-item-info">
 								<div className="ori-contact-info d-flex align-items-center">
 									<div className="info-icon d-flex align-items-center justify-content-center">
-										<i className="fas fa-phone-alt"></i>
+										<FontAwesomeIcon icon={faPhoneAlt} />
 									</div>
 									<div className="info-text pera-content">
 										<h4>Phone</h4>
@@ -49,7 +56,8 @@ const Blog = () => {
 								</div>
 								<div className="ori-contact-info d-flex align-items-center">
 									<div className="info-icon d-flex align-items-center justify-content-center">
-										<i className="fas fa-envelope"></i>
+										{/* <i className="fas fa-envelope"></i> */}
+										<FontAwesomeIcon icon={faEnvelope} />
 									</div>
 									<div className="info-text pera-content">
 										<h4>Email</h4>
@@ -58,7 +66,8 @@ const Blog = () => {
 								</div>
 								<div className="ori-contact-info d-flex align-items-center">
 									<div className="info-icon d-flex align-items-center justify-content-center">
-										<i className="fas fa-map-marker-alt"></i>
+										{/* <i className="fas fa-map-marker-alt"></i> */}
+										<FontAwesomeIcon icon={faMapMarkerAlt} />
 									</div>
 									<div className="info-text pera-content">
 										<h4>Location</h4>

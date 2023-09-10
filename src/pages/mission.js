@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import LogoSlider from "@/component/LogoSlider";
 
 const Mission = () => {
 	const[reloadKey, setReloadKey] = useState(Math.random())
@@ -170,64 +171,7 @@ setReloadKey(Math.random())
 				<h3><i></i><span>Trusted by</span><i></i></h3>
 			</div>
 			<div className="ori-sponsor-content">
-				<div className="ori-sponsor-slider">
-					<div className="ori-sponsor-item">
-						<div className="ori-sponsor-img">
-							<Link href="#">
-								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp1.png" alt=""/>
-							</Link>
-						</div>
-					</div>
-					<div className="ori-sponsor-item">
-						<div className="ori-sponsor-img">
-							<Link href="#">
-								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp2.png" alt=""/>
-							</Link>
-						</div>
-					</div>
-					<div className="ori-sponsor-item">
-						<div className="ori-sponsor-img">
-							<Link href="#">
-								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp3.png" alt=""/>
-							</Link>
-						</div>
-					</div>
-					<div className="ori-sponsor-item">
-						<div className="ori-sponsor-img">
-							<Link href="#">
-								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp4.png" alt=""/>
-							</Link>
-						</div>
-					</div>
-					<div className="ori-sponsor-item">
-						<div className="ori-sponsor-img">
-							<Link href="#">
-								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp5.png" alt=""/>
-							</Link>
-						</div>
-					</div>
-					<div className="ori-sponsor-item">
-						<div className="ori-sponsor-img">
-							<Link href="#">
-								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp1.png" alt=""/>
-							</Link>
-						</div>
-					</div>
-					<div className="ori-sponsor-item">
-						<div className="ori-sponsor-img">
-							<Link href="#">
-								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp2.png" alt=""/>
-							</Link>
-						</div>
-					</div>
-					<div className="ori-sponsor-item">
-						<div className="ori-sponsor-img">
-							<Link href="#">
-								<Image width={100000} height={10000} className="w-full h-auto" src="/img/sponsor/sp3.png" alt=""/>
-							</Link>
-						</div>
-					</div>
-				</div>
+				<LogoSlider />
 			</div>
 		</div>
 		<div className="line_animation">

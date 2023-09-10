@@ -22,8 +22,11 @@ const Home = () => {
   const settings = {
     dots: true,
     infinite: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
     fade: true,
-    // speed: 500,
+    infinite: true,
+    // speed: 1000,
     dotsClass: "slick-dots slick-thumb",
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -41,19 +44,20 @@ const Home = () => {
   return (
     <>
     {
-      domLoaded&&
+      // domLoaded&&
       <>
       <section
       id="ori-slider-1"
-      className="ori-slider-section-1 position-relative"
-    >
+      className="ori-slider-section-1 position-relative">
       <div className="ori-slider-content-wrapper-1 postion-relative">
         <div className="ori-slider-social position-absolute text-uppercase ul-li">
           <ul>
             <li>
+              {/* <button> */}
               <Link href="#">
                 <i className="fab fa-facebook-f"></i> Facebook
               </Link>
+              {/* </button> */}
             </li>
             <li>
               <Link href="#">

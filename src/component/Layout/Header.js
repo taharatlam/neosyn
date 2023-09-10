@@ -77,7 +77,7 @@ const Header = (props) => {
               <div className="ori-main-navigation clearfix ul-li">
                 <ul id="main-nav" className="nav navbar-nav clearfix">
                   <li className="dropdown ori-megamenu">
-                    <Link href="/">Home1</Link>
+                    <Link href="/">Home</Link>
                   </li>
 
                   <li className="dropdown">

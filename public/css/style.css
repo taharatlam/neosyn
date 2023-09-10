@@ -274,6 +274,9 @@ select:visited {
   transition: transform 0.35s ease-out, -webkit-transform 0.35s ease-out;
   z-index: 1011;
 }
+.cursor-close{
+  transform: scale(3.3) !important;
+}
 
 @-webkit-keyframes line_animation {
   0% {
@@ -13597,8 +13600,14 @@ Font load
   transition: max-height 0.3s ease-in-out;
 }
 .dropdown .dropdown-menu{
-  max-height: 100px;
+  /*  */
   display: block !important;
   overflow: hidden;
 }
+@media(max-width:600px){
+  .dropdown .dropdown-menu{
+    max-height: 100px;
+  }
+}
+
 /*---------------------------------------------------- */
