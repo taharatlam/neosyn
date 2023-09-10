@@ -1,4 +1,6 @@
 import LogoSlider from "@/component/LogoSlider";
+import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -9,7 +11,7 @@ const About = () => {
 			<div className="ori-breadcrumb-content text-center ul-li">
 				<h1>About Us</h1>
 				<ul>
-					<li><a href="index.html">orixy</a></li>
+					<li><Link href="index.html">orixy</Link></li>
 					<li>About Us</li>
 				</ul>
 			</div>
@@ -39,10 +41,10 @@ const About = () => {
 			</div>
 			<div className="ori-about-play-area position-relative">
 				<div className="ori-about-play-img">
-					<img src="assets/img/about/play-bg.png" alt="" />
+					<Image src="assets/img/about/play-bg.png" alt="" />
 				</div>
 				<div className="about-play-btn position-absolute">
-					<a className="text-uppercase video_box d-flex align-items-center justify-content-center" href="https://www.youtube.com/watch?v=bIoPkZRVll">Play</a>
+					<Link className="text-uppercase video_box d-flex align-items-center justify-content-center" href="https://www.youtube.com/watch?v=bIoPkZRVll">Play</Link>
 				</div>
 			</div>
 			<div className="ori-about-counter-area">
@@ -86,7 +88,7 @@ const About = () => {
 					<h2>Unlock Revenue Growth for Your Business</h2>
 				</div>
 				<div className="ori-circle-progress-btn">
-					<a href="service.html">See Our Service<i className="fal fa-arrow-right"></i></a>
+					<Link href="service.html">See Our Service<i className="fal fa-arrow-right"></i></Link>
 				</div>
 			</div>
 			<div className="ori-about-circle-progress-item-wrap d-flex align-items-center justify-content-between">
@@ -148,7 +150,7 @@ const About = () => {
 						<h2>Meet our team of <span>professional</span></h2>
 					</div>
 					<div className="ori-btn-1 text-uppercase">
-						<a href="team.html">all Team Member</a>
+						<Link href="team.html">all Team Member</Link>
 					</div>
 				</div>
 				<div className="ori-team-content-1">
@@ -156,51 +158,51 @@ const About = () => {
 						<div className="col-lg-4">
 							<div className="ori-team-inner-item position-relative">
 								<div className="ori-team-img">
-									<img src="assets/img/team/tm1.png" alt="" />
+									<Image src="assets/img/team/tm1.png" alt="" />
 								</div>
 								<div className="ori-team-text text-center position-absolute">
-									<h3><a href="team-single.html">Alextina Ditarson</a></h3>
+									<h3><Link href="team-single.html">Alextina Ditarson</Link></h3>
 									<span>GRAPHIC DESIGNER</span>
 								</div>
 								<div className="ori-team-social text-center position-absolute">
-									<a href="#"><i className="fab fa-facebook-f"></i></a>
-									<a href="#"><i className="fab fa-twitter"></i></a>
-									<a href="#"><i className="fab fa-instagram"></i></a>
-									<a href="#"><i className="fab fa-youtube"></i></a>
+									<Link href="#"><i className="fab fa-facebook-f"></i></Link>
+									<Link href="#"><i className="fab fa-twitter"></i></Link>
+									<Link href="#"><i className="fab fa-instagram"></i></Link>
+									<Link href="#"><i className="fab fa-youtube"></i></Link>
 								</div>
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="ori-team-inner-item position-relative">
 								<div className="ori-team-img">
-									<img src="assets/img/team/tm2.png" alt="" />
+									<Image src="assets/img/team/tm2.png" alt="" />
 								</div>
 								<div className="ori-team-text text-center position-absolute">
-									<h3><a href="team-single.html">Alextina Ditarson</a></h3>
+									<h3><Link href="team-single.html">Alextina Ditarson</Link></h3>
 									<span>GRAPHIC DESIGNER</span>
 								</div>
 								<div className="ori-team-social text-center position-absolute">
-									<a href="#"><i className="fab fa-facebook-f"></i></a>
-									<a href="#"><i className="fab fa-twitter"></i></a>
-									<a href="#"><i className="fab fa-instagram"></i></a>
-									<a href="#"><i className="fab fa-youtube"></i></a>
+									<Link href="#"><i className="fab fa-facebook-f"></i></Link>
+									<Link href="#"><i className="fab fa-twitter"></i></Link>
+									<Link href="#"><i className="fab fa-instagram"></i></Link>
+									<Link href="#"><i className="fab fa-youtube"></i></Link>
 								</div>
 							</div>
 						</div>
 						<div className="col-lg-4">
 							<div className="ori-team-inner-item position-relative">
 								<div className="ori-team-img">
-									<img src="assets/img/team/tm3.png" alt="" />
+									<Image src="assets/img/team/tm3.png" alt="" />
 								</div>
 								<div className="ori-team-text text-center position-absolute">
-									<h3><a href="team-single.html">Alextina Ditarson</a></h3>
+									<h3><Link href="team-single.html">Alextina Ditarson</Link></h3>
 									<span>GRAPHIC DESIGNER</span>
 								</div>
 								<div className="ori-team-social text-center position-absolute">
-									<a href="#"><i className="fab fa-facebook-f"></i></a>
-									<a href="#"><i className="fab fa-twitter"></i></a>
-									<a href="#"><i className="fab fa-instagram"></i></a>
-									<a href="#"><i className="fab fa-youtube"></i></a>
+									<Link href="#"><i className="fab fa-facebook-f"></i></Link>
+									<Link href="#"><i className="fab fa-twitter"></i></Link>
+									<Link href="#"><i className="fab fa-instagram"></i></Link>
+									<Link href="#"><i className="fab fa-youtube"></i></Link>
 								</div>
 							</div>
 						</div>
