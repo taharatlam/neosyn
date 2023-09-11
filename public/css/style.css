@@ -13606,7 +13606,7 @@ Font load
 }
 @media(max-width:600px){
   .dropdown .dropdown-menu{
-    max-height: 100px;
+    /* max-height: 100px;  */
   }
 }
 
