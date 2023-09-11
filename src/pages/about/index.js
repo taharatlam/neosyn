@@ -48,24 +48,24 @@ const About = () => {
             </div>
           </div>
           <div class="ori-about-counter-area">
-            {/* <div class="ori-about-counter-item-wrap d-flex justify-content-between">
+            <div class="ori-about-counter-item-wrap d-flex justify-content-between">
               <div class="ori-about-counter-item pera-content">
                 <h3><span class="counter">15</span>+</h3>
-                <p class="text-uppercase"><span>//</span> YEARS EXPERIENCE</p>
+                <p class="text-uppercase"><span>{'//'}</span> YEARS EXPERIENCE</p>
               </div>
               <div class="ori-about-counter-item pera-content">
                 <h3><span class="counter">330</span>+</h3>
-                <p class="text-uppercase"><span>//</span> PROJECT FINISHED</p>
+                <p class="text-uppercase"><span>{'//'}</span> PROJECT FINISHED</p>
               </div>
               <div class="ori-about-counter-item pera-content">
                 <h3><span class="counter">95</span>M</h3>
-                <p class="text-uppercase"><span>//</span> RECOGNITION</p>
+                <p class="text-uppercase"><span>{'//'}</span> RECOGNITION</p>
               </div>
               <div class="ori-about-counter-item pera-content">
                 <h3><span class="counter">250</span>K+</h3>
-                <p class="text-uppercase"><span>//</span> HAPPY CLIENTS</p>
+                <p class="text-uppercase"><span>{'//'}</span> HAPPY CLIENTS</p>
               </div>
-            </div> */}
+            </div>
           </div>
 
         </div>
