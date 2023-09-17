@@ -41,7 +41,7 @@ export default function CustomCursor() {
         };
         window.addEventListener('mousemove', handleMouseMove);
         document.querySelectorAll('a, button, .zoom-cursor, .trigger-close, .trigger-plus').forEach((element) => {
-            console.log('anchorjj', this);
+            // console.log('anchorjj', this);
             element.addEventListener('mouseenter', handleMouseEnter);
             element.addEventListener('mouseleave', handleMouseLeave);
         });

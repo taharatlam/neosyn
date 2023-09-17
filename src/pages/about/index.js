@@ -2,6 +2,7 @@ import LogoSlider from "@/component/LogoSlider";
 import ProgressCounter from "@/component/ProgressCounter";
 import Image from "next/image";
 import Link from "next/link";
+import TeamCard from "@/component/TeamCard";
 
 const About = () => {
   return (
@@ -41,7 +42,7 @@ const About = () => {
           </div>
           <div className="ori-about-play-area position-relative">
             <div className="ori-about-play-img">
-              <Image height={10000} width={10000} src="/assets/img/about/play-bg.png" alt="" />
+              <Image height={720} width={1920} src="/assets/img/about/play-bg.png" alt="" />
             </div>
             <div className="about-play-btn position-absolute">
               <Link className="text-uppercase video_box d-flex align-items-center justify-content-center" href="https://www.youtube.com/watch?v=bIoPkZRVll">Play</Link>
@@ -169,24 +170,14 @@ const About = () => {
             </div>
             <div className="ori-team-content-1">
               <div className="row">
-                <div className="col-lg-4">
-                  <div className="ori-team-inner-item position-relative">
-                    <div className="ori-team-img">
-                      <Image height={10000} width={10000} src="/assets/img/team/tm1.png" alt="" />
+                {
+                  [...Array(3)].map((item,index)=>(
+                    <div className="col-lg-4" key={index}>
+                      <TeamCard />
                     </div>
-                    <div className="ori-team-text text-center position-absolute">
-                      <h3><Link href="team-single.html">Alextina Ditarson</Link></h3>
-                      <span>GRAPHIC DESIGNER</span>
-                    </div>
-                    <div className="ori-team-social text-center position-absolute">
-                      <Link href="#"><i className="fab fa-facebook-f"></i></Link>
-                      <Link href="#"><i className="fab fa-twitter"></i></Link>
-                      <Link href="#"><i className="fab fa-instagram"></i></Link>
-                      <Link href="#"><i className="fab fa-youtube"></i></Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4">
+                  ))
+                }
+                {/* <div className="col-lg-4">
                   <div className="ori-team-inner-item position-relative">
                     <div className="ori-team-img">
                       <Image height={10000} width={10000} src="/assets/img/team/tm2.png" alt="" />
@@ -219,7 +210,7 @@ const About = () => {
                       <Link href="#"><i className="fab fa-youtube"></i></Link>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

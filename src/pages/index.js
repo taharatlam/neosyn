@@ -10,9 +10,11 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowRight,
-  faMouse,
-  faFacebookF
+  faMouse
 } from "@fortawesome/free-solid-svg-icons";
+import TeamCard from "@/component/TeamCard";
+
+import { faFacebook, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
   
@@ -797,94 +799,21 @@ const Home = () => {
                 data-wow-delay="400ms"
                 data-wow-duration="1500ms"
               >
-                <div className="ori-team-inner-item position-relative">
-                  <div className="ori-team-img">
-                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/team/tm1.png" alt="" />
-                  </div>
-                  <div className="ori-team-text text-center position-absolute">
-                    <h3>
-                      <Link href="team-single.html">Alextina Ditarson</Link>
-                    </h3>
-                    <span>GRAPHIC DESIGNER</span>
-                  </div>
-                  <div className="ori-team-social text-center position-absolute">
-                    <Link href="#">
-                      {/* <i className="fab fa-facebook-f"></i> */}
-                      <FontAwesomeIcon icon={faFacebookF} />
-                    </Link>
-                    <Link href="#">
-                      <i className="fab fa-twitter"></i>
-                    </Link>
-                    <Link href="#">
-                      <i className="fab fa-instagram"></i>
-                    </Link>
-                    <Link href="#">
-                      <i className="fab fa-youtube"></i>
-                    </Link>
-                  </div>
-                </div>
+                <TeamCard />
               </div>
               <div
                 className="col-lg-4 wow fadeInUp"
                 data-wow-delay="600ms"
                 data-wow-duration="1500ms"
               >
-                <div className="ori-team-inner-item position-relative">
-                  <div className="ori-team-img">
-                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/team/tm2.png" alt="" />
-                  </div>
-                  <div className="ori-team-text text-center position-absolute">
-                    <h3>
-                      <Link href="team-single.html">Alextina Ditarson</Link>
-                    </h3>
-                    <span>GRAPHIC DESIGNER</span>
-                  </div>
-                  <div className="ori-team-social text-center position-absolute">
-                    <Link href="#">
-                      <i className="fab fa-facebook-f"></i>
-                    </Link>
-                    <Link href="#">
-                      <i className="fab fa-twitter"></i>
-                    </Link>
-                    <Link href="#">
-                      <i className="fab fa-instagram"></i>
-                    </Link>
-                    <Link href="#">
-                      <i className="fab fa-youtube"></i>
-                    </Link>
-                  </div>
-                </div>
+                <TeamCard />
               </div>
               <div
                 className="col-lg-4 wow fadeInUp"
                 data-wow-delay="800ms"
                 data-wow-duration="1500ms"
               >
-                <div className="ori-team-inner-item position-relative">
-                  <div className="ori-team-img">
-                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/team/tm3.png" alt="" />
-                  </div>
-                  <div className="ori-team-text text-center position-absolute">
-                    <h3>
-                      <Link href="team-single.html">Alextina Ditarson</Link>
-                    </h3>
-                    <span>GRAPHIC DESIGNER</span>
-                  </div>
-                  <div className="ori-team-social text-center position-absolute">
-                    <Link href="#">
-                      <i className="fab fa-facebook-f"></i>
-                    </Link>
-                    <Link href="#">
-                      <i className="fab fa-twitter"></i>
-                    </Link>
-                    <Link href="#">
-                      <i className="fab fa-instagram"></i>
-                    </Link>
-                    <Link href="#">
-                      <i className="fab fa-youtube"></i>
-                    </Link>
-                  </div>
-                </div>
+                <TeamCard />
               </div>
             </div>
           </div>

@@ -181,7 +181,7 @@ const Blog = () => {
 												<Link className="blog-more text-uppercase" href="blog-single.html">CONTINUE READING  <i className="fal fa-arrow-right"></i></Link>
 											</div>
 										</div>
-										<div className="ori-blog-feed-item">
+										{/* <div className="ori-blog-feed-item">
 											<div className="ori-blog-img position-relative">
 												<div className="ori-blog-img-slide">
 													<div className="ori-slide-img">
@@ -210,9 +210,9 @@ const Blog = () => {
 												<p>Research by American Marketing Association states that 60% of marketers include webinars in their marketing strategy. A survey by Curata also backs the importance of webinars where 79% of buyers are ready to share their contact details in exchange for webinar access.</p>
 												<Link className="blog-more text-uppercase" href="blog-single.html">CONTINUE READING  <i className="fal fa-arrow-right"></i></Link>
 											</div>
-										</div>
+										</div> */}
 									</div>
-									<div className="ori-pagination-wrap ul-li">
+									{/* <div className="ori-pagination-wrap ul-li">
 										<ul>
 											<li><Link href="#"><i className="fal fa-arrow-left"></i></Link></li>
 											<li><Link href="#">1</Link></li>
@@ -220,7 +220,7 @@ const Blog = () => {
 											<li><Link href="#">3</Link></li>
 											<li><Link href="#"><i className="fal fa-arrow-right"></i></Link></li>
 										</ul>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>

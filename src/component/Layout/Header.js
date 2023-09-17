@@ -12,8 +12,10 @@ import {
   faBars,
   faXmark,
   faArrowRight,
-  faArrowUp
+  faArrowUp,
+  faArrowDown,
 } from "@fortawesome/free-solid-svg-icons";
+import { faDribbble, faFacebook, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Header = (props) => {
   const servicesType = [...services.serviceType];
@@ -96,6 +98,9 @@ const Header = (props) => {
                         <Link href="/mission">Mission</Link>
                       </li>
                     </ul>
+                    <div className="drop-ar">
+                      <FontAwesomeIcon icon={faArrowDown} />
+                    </div>
                   </li>
                   {/* services to be continued */}
                   <li className="dropdown">
@@ -110,6 +115,9 @@ const Header = (props) => {
                           </li>;
                         })}
                     </ul>
+                    <div className="drop-ar">
+                      <FontAwesomeIcon icon={faArrowDown} />
+                    </div>
                   </li>
 
                   <li>
@@ -153,7 +161,7 @@ const Header = (props) => {
                 </div>
                 <div className="m-brand-logo">
                   <Link href="%21.html#">
-                    <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
+                  <Image width={100000} height={10000} className="w-full h-auto" src="/img/logo/logo1.png" alt="" />
                   </Link>
                 </div>
                 <nav className="mobile-main-navigation  clearfix ul-li">
@@ -330,25 +338,33 @@ const Header = (props) => {
                         <Link
                           href="https://www.facebook.com/"
                           className="fab fa-facebook-f"
-                        ></Link>
+                        >
+                          <FontAwesomeIcon icon={faFacebook} />
+                        </Link>
                       </li>
                       <li>
                         <Link
                           href="https://www.twitter.com/"
                           className="fab fa-twitter"
-                        ></Link>
+                        >
+                          <FontAwesomeIcon icon={faTwitter} />
+                        </Link>
                       </li>
                       <li>
                         <Link
                           href="https://dribbble.com/"
                           className="fab fa-dribbble"
-                        ></Link>
+                        >
+                          <FontAwesomeIcon icon={faDribbble} />
+                        </Link>
                       </li>
                       <li>
                         <Link
                           href="https://www.linkedin.com/"
                           className="fab fa-linkedin"
-                        ></Link>
+                        >
+                          <FontAwesomeIcon icon={faLinkedinIn} />
+                        </Link>
                       </li>
                     </ul>
                   </div>

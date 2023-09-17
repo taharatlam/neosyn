@@ -2,6 +2,9 @@ import LogoSlider from "@/component/LogoSlider";
 import Image from "next/image";
 import Link from "next/link";
 
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+
 const Faq = () => {
 	return (
 		<div>

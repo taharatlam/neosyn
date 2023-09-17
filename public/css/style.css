@@ -1,3 +1,5 @@
+/* @import '@fortawesome/fontawesome-svg-core/styles.css'; */
+@import '../../node_modules/@fortawesome/fontawesome-svg-core/styles.css';
 /*----------------------------------------------------
 CSS Table Of Content
 1. Global Area 
@@ -641,7 +643,7 @@ select:visited {
 .ori-main-navigation-area .dropdown {
   position: relative;
 }
-.ori-main-navigation-area .dropdown:after {
+.ori-main-navigation-area .dropdown .drop-ar {
   top: 2px;
   color: #fff;
   right: -14px;
