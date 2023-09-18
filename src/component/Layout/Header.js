@@ -13,7 +13,7 @@ import {
   faXmark,
   faArrowRight,
   faArrowUp,
-  faArrowDown,
+  faAngleDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { faDribbble, faFacebook, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
@@ -99,7 +99,7 @@ const Header = (props) => {
                       </li>
                     </ul>
                     <div className="drop-ar">
-                      <FontAwesomeIcon icon={faArrowDown} />
+                      <FontAwesomeIcon icon={faAngleDown} />
                     </div>
                   </li>
                   {/* services to be continued */}
@@ -116,7 +116,7 @@ const Header = (props) => {
                         })}
                     </ul>
                     <div className="drop-ar">
-                      <FontAwesomeIcon icon={faArrowDown} />
+                      <FontAwesomeIcon icon={faAngleDown} />
                     </div>
                   </li>
 
