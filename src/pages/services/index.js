@@ -4,6 +4,20 @@ import Breadcrumbs from "@/component/Layout/Breadcrum";
 import Link from "next/link";
 import Image from "next/image";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faDraftingCompass,
+  faEnvelopeOpenText,
+  faMobileAlt,
+  faCropAlt,
+  faMouse,
+  faPhoneLaptop,
+  faMobile,
+  faChartSimple,
+  faArrowRight
+} from "@fortawesome/free-solid-svg-icons";
+import { faJoomla, faProductHunt } from "@fortawesome/free-brands-svg-icons";
+
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Services() {
@@ -21,7 +35,8 @@ export default function Services() {
               <div className="col-lg-3 col-md-6">
                 <div className="ori-service-page-service-inner-item">
                   <div className="service-icon">
-                    <i className="fal fa-crop-alt"></i>
+                    {/* <i className="fal fa-crop-alt"></i> */}
+					<FontAwesomeIcon icon={faCropAlt} />
                   </div>
                   <div className="service-text pera-content">
                     <h3>
@@ -34,7 +49,8 @@ export default function Services() {
               <div className="col-lg-3 col-md-6">
                 <div className="ori-service-page-service-inner-item">
                   <div className="service-icon">
-                    <i className="fal fa-drafting-compass"></i>
+                    {/* <i className="fal fa-drafting-compass"></i> */}
+					<FontAwesomeIcon icon={faDraftingCompass} />
                   </div>
                   <div className="service-text pera-content">
                     <h3>
@@ -47,7 +63,8 @@ export default function Services() {
               <div className="col-lg-3 col-md-6">
                 <div className="ori-service-page-service-inner-item">
                   <div className="service-icon">
-                    <i className="fal fa-analytics"></i>
+                    {/* <i className="fal fa-analytics"></i> */}
+					<FontAwesomeIcon icon={faChartSimple} />
                   </div>
                   <div className="service-text pera-content">
                     <h3>
@@ -60,7 +77,8 @@ export default function Services() {
               <div className="col-lg-3 col-md-6">
                 <div className="ori-service-page-service-inner-item">
                   <div className="service-icon">
-                    <i className="fab fa-product-hunt"></i>
+                    {/* <i className="fab fa-product-hunt"></i> */}
+					<FontAwesomeIcon icon={faProductHunt} />
                   </div>
                   <div className="service-text pera-content">
                     <h3>
@@ -73,7 +91,8 @@ export default function Services() {
               <div className="col-lg-3 col-md-6">
                 <div className="ori-service-page-service-inner-item">
                   <div className="service-icon">
-                    <i className="fab fa-joomla"></i>
+                    {/* <i className="fab fa-joomla"></i> */}
+					<FontAwesomeIcon icon={faJoomla} />
                   </div>
                   <div className="service-text pera-content">
                     <h3>
@@ -86,7 +105,8 @@ export default function Services() {
               <div className="col-lg-3 col-md-6">
                 <div className="ori-service-page-service-inner-item">
                   <div className="service-icon">
-                    <i className="fal fa-mobile-alt"></i>
+                    {/* <i className="fal fa-mobile-alt"></i> */}
+					<FontAwesomeIcon icon={faMobileAlt} />
                   </div>
                   <div className="service-text pera-content">
                     <h3>
@@ -99,7 +119,8 @@ export default function Services() {
               <div className="col-lg-3 col-md-6">
                 <div className="ori-service-page-service-inner-item">
                   <div className="service-icon">
-                    <i className="fal fa-phone-laptop"></i>
+                    {/* <i className="fal fa-phone-laptop"></i> */}
+					<FontAwesomeIcon icon={faMobile} />
                   </div>
                   <div className="service-text pera-content">
                     <h3>
@@ -112,7 +133,8 @@ export default function Services() {
               <div className="col-lg-3 col-md-6">
                 <div className="ori-service-page-service-inner-item">
                   <div className="service-icon">
-                    <i className="fal fa-envelope-open-text"></i>
+                    {/* <i className="fal fa-envelope-open-text"></i> */}
+					<FontAwesomeIcon icon={faEnvelopeOpenText} />
                   </div>
                   <div className="service-text pera-content">
                     <h3>
@@ -133,14 +155,16 @@ export default function Services() {
 					<div className="col-lg-4">
 						<div className="ori-service-inner-item position-relative">
 							<div className="ori-service-more position-absolute">
-								<Link href="about.html"><i className="fas fa-arrow-right"></i></Link>
+								<Link href="about.html">
+								<FontAwesomeIcon icon={faArrowRight} />
+								</Link>
 							</div>
 							<div className="ori-service-img-title position-relative">
 								<div className="ori-service-img">
 									<Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser1.png" alt=""/>
 								</div>
 								<div className="ori-service-title text-center position-absolute">
-									<h3>About us  <i className="fal fa-arrow-right"></i></h3>
+									<h3>About us  <FontAwesomeIcon icon={faArrowRight} /></h3>
 								</div> 
 							</div>
 						</div>
@@ -148,14 +172,14 @@ export default function Services() {
 					<div className="col-lg-4">
 						<div className="ori-service-inner-item position-relative">
 							<div className="ori-service-more position-absolute">
-								<Link href="mission.html"><i className="fas fa-arrow-right"></i></Link>
+								<Link href="mission.html"><FontAwesomeIcon icon={faArrowRight} /></Link>
 							</div>
 							<div className="ori-service-img-title position-relative">
 								<div className="ori-service-img">
 									<Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser2.png" alt=""/>
 								</div>
 								<div className="ori-service-title text-center position-absolute">
-									<h3>Our Mission  <i className="fal fa-arrow-right"></i></h3>
+									<h3>Our Mission  <FontAwesomeIcon icon={faArrowRight} /></h3>
 								</div> 
 							</div>
 						</div>
@@ -163,14 +187,14 @@ export default function Services() {
 					<div className="col-lg-4">
 						<div className="ori-service-inner-item position-relative">
 							<div className="ori-service-more position-absolute">
-								<Link href="about.html"><i className="fas fa-arrow-right"></i></Link>
+								<Link href="about.html"><FontAwesomeIcon icon={faArrowRight} /></Link>
 							</div>
 							<div className="ori-service-img-title position-relative">
 								<div className="ori-service-img">
 									<Image width={100000} height={10000} className="w-full h-auto" src="/img/service/ser3.png" alt=""/>
 								</div>
 								<div className="ori-service-title text-center position-absolute">
-									<h3>Our approach  <i className="fal fa-arrow-right"></i></h3>
+									<h3>Our approach  <FontAwesomeIcon icon={faArrowRight} /></h3>
 								</div> 
 							</div>
 						</div>

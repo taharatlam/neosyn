@@ -4278,11 +4278,16 @@ select:visited {
   transition: 500ms all ease;
   background-color: rgba(20, 163, 235, 0.15);
 }
-.ori-service-inner-item-5 .service-icon i {
+.ori-service-inner-item-5 .service-icon i, .service-icon svg {
   color: var(--base-color-5);
   font-size: 32px;
+  width: 38px !important;
+  height: 38px !important;
   -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
+}
+.service-icon svg path{
+  fill: var(--base-color-1);
 }
 .ori-service-inner-item-5 .service-text h3 {
   color: #0B1C2A;
@@ -10525,6 +10530,9 @@ Font load
 }
 .ori-footer-section.footer-style-three .ori-footer-title h2 i {
   color: var(--base-color-2);
+}
+.ori-footer-title  svg path {
+  fill: var(--base-color-1);
 }
 .ori-footer-section.footer-style-three .ori-footer-title h2 {
   font-weight: 500;

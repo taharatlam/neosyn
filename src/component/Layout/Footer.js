@@ -2,6 +2,8 @@
 // import classNamees from './Layout.module.css';
 import Image from "next/image";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
@@ -9,7 +11,7 @@ function Footer() {
       <div className="container">
         <div className="ori-footer-title text-center text-uppercase">
           <h2>
-            Get In <span>Touch</span> <i className="fas fa-arrow-right"></i>
+            Get In <span>Touch</span> <FontAwesomeIcon icon={faArrowRight} />
           </h2>
         </div>
         <div className="ori-footer-widget-wrapper">
