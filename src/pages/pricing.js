@@ -2,6 +2,8 @@ import LogoSlider from "@/component/LogoSlider";
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 const Pricing = () => {
 	const [domLoaded, setDomLoaded] = useState(false);
 	useEffect(() => {
@@ -49,13 +51,13 @@ const Pricing = () => {
 								</div>
 								<div class="ori-faq-price-list ul-li-block">
 									<ul>
-										<li>Up to 100 keyphrases otimized</li>
-										<li>Custom dashboards: 4</li>
-										<li>Digital marketing expert</li>
-										<li>Content, and link monitoring</li>
-										<li>Content marketing assets: 4</li>
-										<li>Upload your document</li>
-										<li>Export PDF</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Up to 100 keyphrases otimized</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Custom dashboards: 4</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Digital marketing expert</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Content, and link monitoring</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Content marketing assets: 4</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Upload your document</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Export PDF</li>
 									</ul>
 								</div>
 								<div class="ori-faq-price-btn text-center text-uppercase">
@@ -74,13 +76,13 @@ const Pricing = () => {
 								</div>
 								<div class="ori-faq-price-list ul-li-block">
 									<ul>
-										<li>Up to 100 keyphrases otimized</li>
-										<li>Custom dashboards: 4</li>
-										<li>Digital marketing expert</li>
-										<li>Content, and link monitoring</li>
-										<li>Content marketing assets: 4</li>
-										<li>Upload your document</li>
-										<li>Export PDF</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Up to 100 keyphrases otimized</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Custom dashboards: 4</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Digital marketing expert</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Content, and link monitoring</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Content marketing assets: 4</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Upload your document</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Export PDF</li>
 									</ul>
 								</div>
 								<div class="ori-faq-price-btn text-center text-uppercase">
@@ -99,13 +101,13 @@ const Pricing = () => {
 								</div>
 								<div class="ori-faq-price-list ul-li-block">
 									<ul>
-										<li>Up to 100 keyphrases otimized</li>
-										<li>Custom dashboards: 4</li>
-										<li>Digital marketing expert</li>
-										<li>Content, and link monitoring</li>
-										<li>Content marketing assets: 4</li>
-										<li>Upload your document</li>
-										<li>Export PDF</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Up to 100 keyphrases otimized</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Custom dashboards: 4</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Digital marketing expert</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Content, and link monitoring</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Content marketing assets: 4</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Upload your document</li>
+										<li><FontAwesomeIcon icon={faAngleRight} />Export PDF</li>
 									</ul>
 								</div>
 								<div class="ori-faq-price-btn text-center text-uppercase">

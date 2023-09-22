@@ -9,6 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faAngleRight,
   faArrowRight,
   faMouse
 } from "@fortawesome/free-solid-svg-icons";
@@ -19,6 +20,7 @@ import { faFacebook, faTwitter, faInstagram, faYoutube } from '@fortawesome/free
 const Home = () => {
   
   const [domLoaded, setDomLoaded] = useState(false);
+  const [tab,setTab] = useState(1);
   useEffect(() =>{
     setDomLoaded(true)
   },[])
@@ -311,7 +313,8 @@ const Home = () => {
                   <ul className="nav nav-pills" id="pills-tab" role="tablist">
                     <li className="nav-item" role="presentation">
                       <button
-                        className="nav-link active"
+                      onClick={()=>setTab(1)}
+                        className={`nav-link ${tab==1&&'active'}`}
                         id="pills-home-tab"
                         data-bs-toggle="pill"
                         data-bs-target="#pills-home"
@@ -321,11 +324,15 @@ const Home = () => {
                         aria-selected="true"
                       >
                         NFT Design
+                        <div className="drop">
+                          <FontAwesomeIcon icon={faAngleRight} />
+                        </div>
                       </button>
                     </li>
                     <li className="nav-item" role="presentation">
                       <button
-                        className="nav-link"
+                      onClick={()=>setTab(2)}
+                        className={`nav-link ${tab==2&&'active'}`}
                         id="pills-profile-tab"
                         data-bs-toggle="pill"
                         data-bs-target="#pills-profile"
@@ -335,11 +342,15 @@ const Home = () => {
                         aria-selected="false"
                       >
                         Digital Art
+                        <div className="drop">
+                          <FontAwesomeIcon icon={faAngleRight} />
+                        </div>
                       </button>
                     </li>
                     <li className="nav-item" role="presentation">
                       <button
-                        className="nav-link"
+                      onClick={()=>setTab(3)}
+                        className={`nav-link ${tab==3&&'active'}`}
                         id="pills-contact-tab"
                         data-bs-toggle="pill"
                         data-bs-target="#pills-contact"
@@ -349,11 +360,15 @@ const Home = () => {
                         aria-selected="false"
                       >
                         Branding Design
+                        <div className="drop">
+                          <FontAwesomeIcon icon={faAngleRight} />
+                        </div>
                       </button>
                     </li>
                     <li className="nav-item" role="presentation">
                       <button
-                        className="nav-link"
+                      onClick={()=>setTab(4)}
+                        className={`nav-link ${tab==4&&'active'}`}
                         id="interior-tab"
                         data-bs-toggle="pill"
                         data-bs-target="#interior"
@@ -363,11 +378,15 @@ const Home = () => {
                         aria-selected="false"
                       >
                         Web Project
+                        <div className="drop">
+                          <FontAwesomeIcon icon={faAngleRight} />
+                        </div>
                       </button>
                     </li>
                     <li className="nav-item" role="presentation">
                       <button
-                        className="nav-link"
+                      onClick={()=>setTab(5)}
+                        className={`nav-link ${tab==5&&'active'}`}
                         id="construction-tab"
                         data-bs-toggle="pill"
                         data-bs-target="#construction"
@@ -377,6 +396,9 @@ const Home = () => {
                         aria-selected="false"
                       >
                         Graphic Design
+                        <div className="drop">
+                          <FontAwesomeIcon icon={faAngleRight} />
+                        </div>
                       </button>
                     </li>
                   </ul>
@@ -390,6 +412,8 @@ const Home = () => {
                 data-wow-duration="1500ms"
               >
                 <div className="tab-content" id="pills-tabContent">
+                  {
+                    tab==1&&
                   <div
                     className="tab-pane fade show active"
                     id="pills-home"
@@ -457,8 +481,11 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
+                  }
+                  {
+                    tab==2&&
                   <div
-                    className="tab-pane fade"
+                    className="tab-pane fade show active"
                     id="pills-profile"
                     role="tabpanel"
                     aria-labelledby="pills-home-tab"
@@ -470,7 +497,7 @@ const Home = () => {
                       <div className="ori-project-text position-absolute">
                         <h3>
                           <Link href="portfolio-single.html">
-                            Portrait Man Digital Art
+                            Portrait Man Digital Art2
                           </Link>
                         </h3>
                         <span className="text-uppercase project-category">
@@ -524,8 +551,11 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
+                  }
+                  {
+                    tab==3&&
                   <div
-                    className="tab-pane fade"
+                    className="tab-pane fade show active"
                     id="pills-contact"
                     role="tabpanel"
                     aria-labelledby="pills-home-tab"
@@ -591,8 +621,11 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
+                  }
+                  {
+                    tab==4&&
                   <div
-                    className="tab-pane fade"
+                    className="tab-pane fade show active"
                     id="interior"
                     role="tabpanel"
                     aria-labelledby="pills-home-tab"
@@ -658,8 +691,11 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
+                  }
+                  {
+                    tab==5&&
                   <div
-                    className="tab-pane fade"
+                    className="tab-pane fade show active"
                     id="construction"
                     role="tabpanel"
                     aria-labelledby="pills-home-tab"
@@ -725,6 +761,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
+                  }
                 </div>
               </div>
             </div>

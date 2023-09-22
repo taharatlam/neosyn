@@ -2020,6 +2020,15 @@ select:visited {
   font-weight: 900;
   position: absolute;
   font-family: "Font Awesome 5 Pro";
+  display: none;
+}
+.ori-project-tab-btn button .drop {
+  top: 0;
+  right: 0;
+  content: "\f105";
+  font-weight: 900;
+  position: absolute;
+  font-family: "Font Awesome 5 Pro";
 }
 .ori-project-tab-btn button:after {
   left: 0;
@@ -7050,8 +7059,20 @@ select:visited {
   font-weight: 300;
   background-image: none;
   font-family: "Font Awesome 5 Pro";
+  display: none;
 }
 .ori-mission-accordion .accordion-button:not(.collapsed)::after {
+  color: var(--base-color-1);
+}
+.ori-mission-accordion .accordion-button .drop {
+  content: "\f062";
+  font-weight: 300;
+  position: absolute;
+  right: 0;
+  background-image: none;
+  font-family: "Font Awesome 5 Pro";
+}
+.ori-mission-accordion .accordion-button:not(.collapsed) .drop {
   color: var(--base-color-1);
 }
 
@@ -7337,8 +7358,22 @@ select:visited {
   font-weight: 300;
   background-image: none;
   font-family: "Font Awesome 5 Pro";
+  display: none !important;
 }
 .ori-faq-accordion-item-area .accordion-button:not(.collapsed)::after {
+  color: var(--base-color-1);
+  content: "\f068";
+}
+.ori-faq-accordion-item-area .accordion-button .drop {
+  right: auto;
+  left: -50px;
+  content: "\f067";
+  position: absolute;
+  font-weight: 300;
+  background-image: none;
+  font-family: "Font Awesome 5 Pro";
+}
+.ori-faq-accordion-item-area .accordion-button:not(.collapsed) .drop {
   color: var(--base-color-1);
   content: "\f068";
 }
@@ -7401,6 +7436,16 @@ select:visited {
 }
 .ori-faq-price-inner-item .ori-faq-price-list li:before {
   top: 0;
+  left: 0;
+  content: "\f336";
+  font-weight: 300;
+  position: absolute;
+  color: var(--base-color-1);
+  font-family: "Font Awesome 5 Pro";
+  display: none;
+}
+.ori-faq-price-inner-item .ori-faq-price-list li svg {
+  top: 7px;
   left: 0;
   content: "\f336";
   font-weight: 300;
